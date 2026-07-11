@@ -1,0 +1,79 @@
+[
+  {
+    "entry_date": "2025-09-01",
+    "entry_price": 105.4,
+    "position_type": "long",
+    "exit_date": "2025-09-11",
+    "exit_price": 97.1,
+    "pnl_pct": -7.87,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 109.1
+  },
+  {
+    "entry_date": "2025-10-14",
+    "entry_price": 83.8,
+    "position_type": "short",
+    "exit_date": "2025-11-13",
+    "exit_price": 91.95,
+    "pnl_pct": -9.73,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 79.05
+  },
+  {
+    "entry_date": "2025-12-15",
+    "entry_price": 81.75,
+    "position_type": "short",
+    "exit_date": "2026-01-06",
+    "exit_price": 84.5,
+    "pnl_pct": -3.36,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 76.0
+  },
+  {
+    "entry_date": "2026-02-23",
+    "entry_price": 92.0,
+    "position_type": "long",
+    "exit_date": "2026-02-26",
+    "exit_price": 84.35,
+    "pnl_pct": -8.32,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 93.8
+  },
+  {
+    "entry_date": "2026-04-01",
+    "entry_price": 90.9,
+    "position_type": "long",
+    "exit_date": "2026-04-23",
+    "exit_price": 83.0,
+    "pnl_pct": -8.69,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 93.15
+  },
+  {
+    "entry_date": "2026-05-28",
+    "entry_price": 74.85,
+    "position_type": "short",
+    "exit_date": "2026-05-29",
+    "exit_price": 83.35,
+    "pnl_pct": -11.36,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 74.6
+  },
+  {
+    "entry_date": "2026-06-08",
+    "entry_price": 73.25,
+    "position_type": "short",
+    "exit_date": "2026-06-23",
+    "exit_price": 76.5,
+    "pnl_pct": -4.44,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 69.55
+  }
+]

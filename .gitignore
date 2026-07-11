@@ -1,6 +1,27 @@
-.workbuddy/
-index_000933_raw.txt
-hengrui_hk_01276.csv
-hengrui_tushare_600276.csv
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+*.egg
+.venv/
+venv/
+
+# Data - keep processed data, ignore raw caches
+data/raw/
+*.csv.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WorkBuddy
+.workbuddy/memory/
+.workbuddy/MEMORY.md

@@ -1,0 +1,1155 @@
+{
+  "metrics": {
+    "total_return_pct": -5.3,
+    "cagr_pct": -5.34,
+    "annual_volatility_pct": 4.29,
+    "sharpe_ratio": -1.825,
+    "max_drawdown_pct": 6.1,
+    "calmar_ratio": -0.87,
+    "total_trades": 11,
+    "win_trades": 3,
+    "loss_trades": 8,
+    "win_rate_pct": 27.3,
+    "avg_win_pct": 0.42,
+    "avg_loss_pct": -0.83,
+    "profit_factor": 0.51,
+    "avg_hold_days": 15.6,
+    "final_capital": 947041.66
+  },
+  "trades": [
+    {
+      "entry_date": "2025-07-29",
+      "exit_date": "2025-08-04",
+      "position_type": "long",
+      "entry_price": 63.6,
+      "exit_price": 61.8,
+      "qty": 2800,
+      "pnl": -5040.0,
+      "pnl_pct": -0.5,
+      "reason": "止损出场 (2ATR)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2025-08-25",
+      "exit_date": "2025-08-28",
+      "position_type": "long",
+      "entry_price": 66.06,
+      "exit_price": 62.83,
+      "qty": 2800,
+      "pnl": -9044.0,
+      "pnl_pct": -0.91,
+      "reason": "止损出场 (2ATR)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2025-09-01",
+      "exit_date": "2025-09-11",
+      "position_type": "long",
+      "entry_price": 70.13,
+      "exit_price": 68.09,
+      "qty": 5142,
+      "pnl": -10478.34,
+      "pnl_pct": -1.06,
+      "reason": "止损出场 (2ATR)",
+      "add_count": 3
+    },
+    {
+      "entry_date": "2025-10-28",
+      "exit_date": "2025-12-08",
+      "position_type": "short",
+      "entry_price": 63.42,
+      "exit_price": 62.26,
+      "qty": 2000,
+      "pnl": 2320.0,
+      "pnl_pct": 0.24,
+      "reason": "出场 (突破10日高点)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2025-12-16",
+      "exit_date": "2025-12-23",
+      "position_type": "short",
+      "entry_price": 58.95,
+      "exit_price": 61.6,
+      "qty": 3100,
+      "pnl": -8215.0,
+      "pnl_pct": -0.84,
+      "reason": "止损出场 (2ATR)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2026-01-22",
+      "exit_date": "2026-02-11",
+      "position_type": "short",
+      "entry_price": 59.24,
+      "exit_price": 58.7,
+      "qty": 3300,
+      "pnl": 1782.0,
+      "pnl_pct": 0.18,
+      "reason": "出场 (突破10日高点)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2026-03-02",
+      "exit_date": "2026-03-17",
+      "position_type": "short",
+      "entry_price": 54.34,
+      "exit_price": 56.1,
+      "qty": 3500,
+      "pnl": -6160.0,
+      "pnl_pct": -0.63,
+      "reason": "止损出场 (2ATR)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2026-03-26",
+      "exit_date": "2026-03-27",
+      "position_type": "short",
+      "entry_price": 51.43,
+      "exit_price": 54.98,
+      "qty": 3200,
+      "pnl": -11360.0,
+      "pnl_pct": -1.18,
+      "reason": "止损出场 (2ATR)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2026-04-01",
+      "exit_date": "2026-04-28",
+      "position_type": "long",
+      "entry_price": 57.53,
+      "exit_price": 54.64,
+      "qty": 2800,
+      "pnl": -8092.0,
+      "pnl_pct": -0.85,
+      "reason": "出场 (跌破10日低点)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2026-04-30",
+      "exit_date": "2026-05-12",
+      "position_type": "short",
+      "entry_price": 53.68,
+      "exit_price": 55.91,
+      "qty": 3000,
+      "pnl": -6690.0,
+      "pnl_pct": -0.71,
+      "reason": "止损出场 (2ATR)",
+      "add_count": 0
+    },
+    {
+      "entry_date": "2026-05-19",
+      "exit_date": "2026-06-18",
+      "position_type": "short",
+      "entry_price": 51.39,
+      "exit_price": 48.42,
+      "qty": 2700,
+      "pnl": 8019.0,
+      "pnl_pct": 0.85,
+      "reason": "出场 (突破10日高点)",
+      "add_count": 0
+    }
+  ],
+  "drawdown": [
+    {
+      "date": "2025-07-01",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-02",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-03",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-04",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-07",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-08",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-09",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-10",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-11",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-14",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-15",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-16",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-17",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-18",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-21",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-22",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-23",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-24",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-25",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-28",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-29",
+      "drawdown_pct": 0.0
+    },
+    {
+      "date": "2025-07-30",
+      "drawdown_pct": 0.06
+    },
+    {
+      "date": "2025-07-31",
+      "drawdown_pct": 0.25
+    },
+    {
+      "date": "2025-08-01",
+      "drawdown_pct": 0.7
+    },
+    {
+      "date": "2025-08-04",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-05",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-06",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-07",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-08",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-11",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-12",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-13",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-14",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-15",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-18",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-19",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-20",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-21",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-22",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-25",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-08-26",
+      "drawdown_pct": 0.77
+    },
+    {
+      "date": "2025-08-27",
+      "drawdown_pct": 1.4
+    },
+    {
+      "date": "2025-08-28",
+      "drawdown_pct": 1.41
+    },
+    {
+      "date": "2025-08-29",
+      "drawdown_pct": 1.41
+    },
+    {
+      "date": "2025-09-01",
+      "drawdown_pct": 1.41
+    },
+    {
+      "date": "2025-09-02",
+      "drawdown_pct": 1.28
+    },
+    {
+      "date": "2025-09-03",
+      "drawdown_pct": 0.5
+    },
+    {
+      "date": "2025-09-04",
+      "drawdown_pct": 1.75
+    },
+    {
+      "date": "2025-09-05",
+      "drawdown_pct": 0.32
+    },
+    {
+      "date": "2025-09-08",
+      "drawdown_pct": 0.39
+    },
+    {
+      "date": "2025-09-09",
+      "drawdown_pct": 1.02
+    },
+    {
+      "date": "2025-09-10",
+      "drawdown_pct": 1.41
+    },
+    {
+      "date": "2025-09-11",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-12",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-15",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-16",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-17",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-18",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-19",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-22",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-23",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-24",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-25",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-26",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-29",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-09-30",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-09",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-10",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-13",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-14",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-15",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-16",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-17",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-20",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-21",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-22",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-23",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-24",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-27",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-28",
+      "drawdown_pct": 2.46
+    },
+    {
+      "date": "2025-10-29",
+      "drawdown_pct": 2.54
+    },
+    {
+      "date": "2025-10-30",
+      "drawdown_pct": 2.31
+    },
+    {
+      "date": "2025-10-31",
+      "drawdown_pct": 2.56
+    },
+    {
+      "date": "2025-11-03",
+      "drawdown_pct": 2.41
+    },
+    {
+      "date": "2025-11-04",
+      "drawdown_pct": 2.12
+    },
+    {
+      "date": "2025-11-05",
+      "drawdown_pct": 2.12
+    },
+    {
+      "date": "2025-11-06",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-11-07",
+      "drawdown_pct": 2.05
+    },
+    {
+      "date": "2025-11-10",
+      "drawdown_pct": 2.1
+    },
+    {
+      "date": "2025-11-11",
+      "drawdown_pct": 1.94
+    },
+    {
+      "date": "2025-11-12",
+      "drawdown_pct": 2.15
+    },
+    {
+      "date": "2025-11-13",
+      "drawdown_pct": 2.44
+    },
+    {
+      "date": "2025-11-14",
+      "drawdown_pct": 2.31
+    },
+    {
+      "date": "2025-11-17",
+      "drawdown_pct": 2.09
+    },
+    {
+      "date": "2025-11-18",
+      "drawdown_pct": 2.09
+    },
+    {
+      "date": "2025-11-19",
+      "drawdown_pct": 1.95
+    },
+    {
+      "date": "2025-11-20",
+      "drawdown_pct": 1.86
+    },
+    {
+      "date": "2025-11-21",
+      "drawdown_pct": 1.63
+    },
+    {
+      "date": "2025-11-24",
+      "drawdown_pct": 1.86
+    },
+    {
+      "date": "2025-11-25",
+      "drawdown_pct": 1.91
+    },
+    {
+      "date": "2025-11-26",
+      "drawdown_pct": 2.2
+    },
+    {
+      "date": "2025-11-27",
+      "drawdown_pct": 2.15
+    },
+    {
+      "date": "2025-11-28",
+      "drawdown_pct": 2.15
+    },
+    {
+      "date": "2025-12-01",
+      "drawdown_pct": 2.12
+    },
+    {
+      "date": "2025-12-02",
+      "drawdown_pct": 1.96
+    },
+    {
+      "date": "2025-12-03",
+      "drawdown_pct": 1.93
+    },
+    {
+      "date": "2025-12-04",
+      "drawdown_pct": 1.98
+    },
+    {
+      "date": "2025-12-05",
+      "drawdown_pct": 2.06
+    },
+    {
+      "date": "2025-12-08",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-12-09",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-12-10",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-12-11",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-12-12",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-12-15",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-12-16",
+      "drawdown_pct": 2.22
+    },
+    {
+      "date": "2025-12-17",
+      "drawdown_pct": 2.58
+    },
+    {
+      "date": "2025-12-18",
+      "drawdown_pct": 2.49
+    },
+    {
+      "date": "2025-12-19",
+      "drawdown_pct": 2.75
+    },
+    {
+      "date": "2025-12-22",
+      "drawdown_pct": 2.78
+    },
+    {
+      "date": "2025-12-23",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2025-12-24",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2025-12-25",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2025-12-26",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2025-12-29",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2025-12-30",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2025-12-31",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-05",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-06",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-07",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-08",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-09",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-12",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-13",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-14",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-15",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-16",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-19",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-20",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-21",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-22",
+      "drawdown_pct": 3.05
+    },
+    {
+      "date": "2026-01-23",
+      "drawdown_pct": 2.9
+    },
+    {
+      "date": "2026-01-26",
+      "drawdown_pct": 2.62
+    },
+    {
+      "date": "2026-01-27",
+      "drawdown_pct": 2.31
+    },
+    {
+      "date": "2026-01-28",
+      "drawdown_pct": 2.09
+    },
+    {
+      "date": "2026-01-29",
+      "drawdown_pct": 2.61
+    },
+    {
+      "date": "2026-01-30",
+      "drawdown_pct": 2.62
+    },
+    {
+      "date": "2026-02-02",
+      "drawdown_pct": 2.07
+    },
+    {
+      "date": "2026-02-03",
+      "drawdown_pct": 2.4
+    },
+    {
+      "date": "2026-02-04",
+      "drawdown_pct": 2.44
+    },
+    {
+      "date": "2026-02-05",
+      "drawdown_pct": 2.62
+    },
+    {
+      "date": "2026-02-06",
+      "drawdown_pct": 2.34
+    },
+    {
+      "date": "2026-02-09",
+      "drawdown_pct": 2.39
+    },
+    {
+      "date": "2026-02-10",
+      "drawdown_pct": 2.7
+    },
+    {
+      "date": "2026-02-11",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-02-12",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-02-13",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-02-24",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-02-25",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-02-26",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-02-27",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-03-02",
+      "drawdown_pct": 2.87
+    },
+    {
+      "date": "2026-03-03",
+      "drawdown_pct": 2.54
+    },
+    {
+      "date": "2026-03-04",
+      "drawdown_pct": 2.32
+    },
+    {
+      "date": "2026-03-05",
+      "drawdown_pct": 2.58
+    },
+    {
+      "date": "2026-03-06",
+      "drawdown_pct": 3.22
+    },
+    {
+      "date": "2026-03-09",
+      "drawdown_pct": 3.01
+    },
+    {
+      "date": "2026-03-10",
+      "drawdown_pct": 3.57
+    },
+    {
+      "date": "2026-03-11",
+      "drawdown_pct": 3.32
+    },
+    {
+      "date": "2026-03-12",
+      "drawdown_pct": 3.13
+    },
+    {
+      "date": "2026-03-13",
+      "drawdown_pct": 3.07
+    },
+    {
+      "date": "2026-03-16",
+      "drawdown_pct": 3.24
+    },
+    {
+      "date": "2026-03-17",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-18",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-19",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-20",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-23",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-24",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-25",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-26",
+      "drawdown_pct": 3.48
+    },
+    {
+      "date": "2026-03-27",
+      "drawdown_pct": 4.62
+    },
+    {
+      "date": "2026-03-30",
+      "drawdown_pct": 4.62
+    },
+    {
+      "date": "2026-03-31",
+      "drawdown_pct": 4.62
+    },
+    {
+      "date": "2026-04-01",
+      "drawdown_pct": 4.62
+    },
+    {
+      "date": "2026-04-02",
+      "drawdown_pct": 4.72
+    },
+    {
+      "date": "2026-04-03",
+      "drawdown_pct": 5.0
+    },
+    {
+      "date": "2026-04-07",
+      "drawdown_pct": 5.07
+    },
+    {
+      "date": "2026-04-08",
+      "drawdown_pct": 4.7
+    },
+    {
+      "date": "2026-04-09",
+      "drawdown_pct": 4.84
+    },
+    {
+      "date": "2026-04-10",
+      "drawdown_pct": 4.81
+    },
+    {
+      "date": "2026-04-13",
+      "drawdown_pct": 5.33
+    },
+    {
+      "date": "2026-04-14",
+      "drawdown_pct": 5.05
+    },
+    {
+      "date": "2026-04-15",
+      "drawdown_pct": 4.62
+    },
+    {
+      "date": "2026-04-16",
+      "drawdown_pct": 4.69
+    },
+    {
+      "date": "2026-04-17",
+      "drawdown_pct": 5.01
+    },
+    {
+      "date": "2026-04-20",
+      "drawdown_pct": 5.01
+    },
+    {
+      "date": "2026-04-21",
+      "drawdown_pct": 5.17
+    },
+    {
+      "date": "2026-04-22",
+      "drawdown_pct": 5.26
+    },
+    {
+      "date": "2026-04-23",
+      "drawdown_pct": 4.99
+    },
+    {
+      "date": "2026-04-24",
+      "drawdown_pct": 5.09
+    },
+    {
+      "date": "2026-04-27",
+      "drawdown_pct": 5.28
+    },
+    {
+      "date": "2026-04-28",
+      "drawdown_pct": 5.43
+    },
+    {
+      "date": "2026-04-29",
+      "drawdown_pct": 5.43
+    },
+    {
+      "date": "2026-04-30",
+      "drawdown_pct": 5.43
+    },
+    {
+      "date": "2026-05-06",
+      "drawdown_pct": 5.35
+    },
+    {
+      "date": "2026-05-07",
+      "drawdown_pct": 5.37
+    },
+    {
+      "date": "2026-05-08",
+      "drawdown_pct": 5.1
+    },
+    {
+      "date": "2026-05-11",
+      "drawdown_pct": 5.32
+    },
+    {
+      "date": "2026-05-12",
+      "drawdown_pct": 6.1
+    },
+    {
+      "date": "2026-05-13",
+      "drawdown_pct": 6.1
+    },
+    {
+      "date": "2026-05-14",
+      "drawdown_pct": 6.1
+    },
+    {
+      "date": "2026-05-15",
+      "drawdown_pct": 6.1
+    },
+    {
+      "date": "2026-05-18",
+      "drawdown_pct": 6.1
+    },
+    {
+      "date": "2026-05-19",
+      "drawdown_pct": 6.1
+    },
+    {
+      "date": "2026-05-20",
+      "drawdown_pct": 5.92
+    },
+    {
+      "date": "2026-05-21",
+      "drawdown_pct": 6.06
+    },
+    {
+      "date": "2026-05-22",
+      "drawdown_pct": 5.8
+    },
+    {
+      "date": "2026-05-25",
+      "drawdown_pct": 5.51
+    },
+    {
+      "date": "2026-05-26",
+      "drawdown_pct": 5.45
+    },
+    {
+      "date": "2026-05-27",
+      "drawdown_pct": 5.82
+    },
+    {
+      "date": "2026-05-28",
+      "drawdown_pct": 5.18
+    },
+    {
+      "date": "2026-05-29",
+      "drawdown_pct": 5.77
+    },
+    {
+      "date": "2026-06-01",
+      "drawdown_pct": 5.5
+    },
+    {
+      "date": "2026-06-02",
+      "drawdown_pct": 5.29
+    },
+    {
+      "date": "2026-06-03",
+      "drawdown_pct": 4.97
+    },
+    {
+      "date": "2026-06-04",
+      "drawdown_pct": 4.81
+    },
+    {
+      "date": "2026-06-05",
+      "drawdown_pct": 4.93
+    },
+    {
+      "date": "2026-06-08",
+      "drawdown_pct": 4.63
+    },
+    {
+      "date": "2026-06-09",
+      "drawdown_pct": 4.75
+    },
+    {
+      "date": "2026-06-10",
+      "drawdown_pct": 4.92
+    },
+    {
+      "date": "2026-06-11",
+      "drawdown_pct": 4.91
+    },
+    {
+      "date": "2026-06-12",
+      "drawdown_pct": 5.31
+    },
+    {
+      "date": "2026-06-15",
+      "drawdown_pct": 5.15
+    },
+    {
+      "date": "2026-06-16",
+      "drawdown_pct": 5.01
+    },
+    {
+      "date": "2026-06-17",
+      "drawdown_pct": 4.91
+    },
+    {
+      "date": "2026-06-18",
+      "drawdown_pct": 5.3
+    },
+    {
+      "date": "2026-06-22",
+      "drawdown_pct": 5.3
+    },
+    {
+      "date": "2026-06-23",
+      "drawdown_pct": 5.3
+    },
+    {
+      "date": "2026-06-24",
+      "drawdown_pct": 5.3
+    },
+    {
+      "date": "2026-06-25",
+      "drawdown_pct": 5.3
+    },
+    {
+      "date": "2026-06-26",
+      "drawdown_pct": 5.3
+    },
+    {
+      "date": "2026-06-29",
+      "drawdown_pct": 5.3
+    },
+    {
+      "date": "2026-06-30",
+      "drawdown_pct": 5.51
+    },
+    {
+      "date": "2026-07-01",
+      "drawdown_pct": 5.09
+    },
+    {
+      "date": "2026-07-02",
+      "drawdown_pct": 5.16
+    },
+    {
+      "date": "2026-07-03",
+      "drawdown_pct": 4.93
+    },
+    {
+      "date": "2026-07-06",
+      "drawdown_pct": 4.1
+    },
+    {
+      "date": "2026-07-07",
+      "drawdown_pct": 4.7
+    },
+    {
+      "date": "2026-07-08",
+      "drawdown_pct": 5.29
+    },
+    {
+      "date": "2026-07-09",
+      "drawdown_pct": 4.6
+    },
+    {
+      "date": "2026-07-10",
+      "drawdown_pct": 4.54
+    }
+  ]
+}

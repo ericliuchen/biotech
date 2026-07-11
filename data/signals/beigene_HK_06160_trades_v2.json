@@ -1,0 +1,101 @@
+[
+  {
+    "entry_date": "2025-08-15",
+    "entry_price": 191.5,
+    "position_type": "long",
+    "exit_date": "2025-08-28",
+    "exit_price": 177.2,
+    "pnl_pct": -7.47,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 196.9
+  },
+  {
+    "entry_date": "2025-09-02",
+    "entry_price": 202.8,
+    "position_type": "long",
+    "exit_date": "2025-09-11",
+    "exit_price": 193.8,
+    "pnl_pct": -4.44,
+    "reason": "止损 (2ATR)",
+    "add_count": 1,
+    "highest_reached": 213.0
+  },
+  {
+    "entry_date": "2025-10-14",
+    "entry_price": 185.8,
+    "position_type": "short",
+    "exit_date": "2025-11-07",
+    "exit_price": 190.4,
+    "pnl_pct": -2.48,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 181.2
+  },
+  {
+    "entry_date": "2025-11-12",
+    "entry_price": 212.6,
+    "position_type": "long",
+    "exit_date": "2025-12-02",
+    "exit_price": 200.2,
+    "pnl_pct": -5.83,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 1,
+    "highest_reached": 229.4
+  },
+  {
+    "entry_date": "2025-12-09",
+    "entry_price": 192.0,
+    "position_type": "short",
+    "exit_date": "2026-01-05",
+    "exit_price": 194.3,
+    "pnl_pct": -1.2,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 177.0
+  },
+  {
+    "entry_date": "2026-01-12",
+    "entry_price": 203.4,
+    "position_type": "long",
+    "exit_date": "2026-02-02",
+    "exit_price": 198.1,
+    "pnl_pct": -2.61,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 2,
+    "highest_reached": 212.6
+  },
+  {
+    "entry_date": "2026-02-26",
+    "entry_price": 194.4,
+    "position_type": "short",
+    "exit_date": "2026-04-01",
+    "exit_price": 185.0,
+    "pnl_pct": 4.84,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 159.2
+  },
+  {
+    "entry_date": "2026-04-02",
+    "entry_price": 187.5,
+    "position_type": "long",
+    "exit_date": "2026-04-23",
+    "exit_price": 183.7,
+    "pnl_pct": -2.03,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 1,
+    "highest_reached": 197.8
+  },
+  {
+    "entry_date": "2026-06-01",
+    "entry_price": 171.5,
+    "position_type": "short",
+    "exit_date": "2026-06-23",
+    "exit_price": 160.9,
+    "pnl_pct": 6.18,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 153.0
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "entry_date": "2025-08-18",
+    "entry_price": 47.06,
+    "position_type": "long",
+    "exit_date": "2025-08-28",
+    "exit_price": 43.97,
+    "pnl_pct": -6.57,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 48.59
+  },
+  {
+    "entry_date": "2025-09-23",
+    "entry_price": 41.58,
+    "position_type": "short",
+    "exit_date": "2025-11-03",
+    "exit_price": 40.25,
+    "pnl_pct": 3.2,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 36.84
+  },
+  {
+    "entry_date": "2025-11-21",
+    "entry_price": 35.75,
+    "position_type": "short",
+    "exit_date": "2026-01-05",
+    "exit_price": 36.42,
+    "pnl_pct": -1.87,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 33.99
+  },
+  {
+    "entry_date": "2026-01-07",
+    "entry_price": 37.8,
+    "position_type": "long",
+    "exit_date": "2026-01-20",
+    "exit_price": 35.29,
+    "pnl_pct": -6.64,
+    "reason": "止损 (2ATR)",
+    "add_count": 2,
+    "highest_reached": 39.97
+  },
+  {
+    "entry_date": "2026-01-27",
+    "entry_price": 40.98,
+    "position_type": "long",
+    "exit_date": "2026-01-29",
+    "exit_price": 36.82,
+    "pnl_pct": -10.15,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 42.8
+  },
+  {
+    "entry_date": "2026-02-26",
+    "entry_price": 33.94,
+    "position_type": "short",
+    "exit_date": "2026-03-17",
+    "exit_price": 32.49,
+    "pnl_pct": 4.27,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 29.46
+  },
+  {
+    "entry_date": "2026-04-01",
+    "entry_price": 38.4,
+    "position_type": "long",
+    "exit_date": "2026-05-08",
+    "exit_price": 39.36,
+    "pnl_pct": 2.5,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 4,
+    "highest_reached": 46.55
+  },
+  {
+    "entry_date": "2026-05-15",
+    "entry_price": 38.55,
+    "position_type": "short",
+    "exit_date": "2026-06-23",
+    "exit_price": 30.43,
+    "pnl_pct": 21.06,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 28.1
+  }
+]

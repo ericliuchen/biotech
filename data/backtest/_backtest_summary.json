@@ -1,0 +1,190 @@
+{
+  "initial_capital": 1000000,
+  "results": [
+    {
+      "company": "恒瑞医药",
+      "code": "600276",
+      "market": "A股",
+      "currency": "CNY",
+      "metrics": {
+        "total_return_pct": -5.3,
+        "cagr_pct": -5.34,
+        "annual_volatility_pct": 4.29,
+        "sharpe_ratio": -1.825,
+        "max_drawdown_pct": 6.1,
+        "calmar_ratio": -0.87,
+        "total_trades": 11,
+        "win_trades": 3,
+        "loss_trades": 8,
+        "win_rate_pct": 27.3,
+        "avg_win_pct": 0.42,
+        "avg_loss_pct": -0.83,
+        "profit_factor": 0.51,
+        "avg_hold_days": 15.6,
+        "final_capital": 947041.66
+      }
+    },
+    {
+      "company": "恒瑞医药",
+      "code": "01276",
+      "market": "港股",
+      "currency": "HKD",
+      "metrics": {
+        "total_return_pct": -2.81,
+        "cagr_pct": -2.81,
+        "annual_volatility_pct": 3.44,
+        "sharpe_ratio": -1.542,
+        "max_drawdown_pct": 4.27,
+        "calmar_ratio": -0.66,
+        "total_trades": 8,
+        "win_trades": 2,
+        "loss_trades": 6,
+        "win_rate_pct": 25.0,
+        "avg_win_pct": 0.94,
+        "avg_loss_pct": -0.78,
+        "profit_factor": 1.2,
+        "avg_hold_days": 21.9,
+        "final_capital": 971922.5
+      }
+    },
+    {
+      "company": "百济神州",
+      "code": "688235",
+      "market": "A股",
+      "currency": "CNY",
+      "metrics": {
+        "total_return_pct": -4.47,
+        "cagr_pct": -4.51,
+        "annual_volatility_pct": 7.34,
+        "sharpe_ratio": -0.956,
+        "max_drawdown_pct": 10.45,
+        "calmar_ratio": -0.43,
+        "total_trades": 9,
+        "win_trades": 2,
+        "loss_trades": 7,
+        "win_rate_pct": 22.2,
+        "avg_win_pct": 2.1,
+        "avg_loss_pct": -1.24,
+        "profit_factor": 1.7,
+        "avg_hold_days": 19.7,
+        "final_capital": 955250.26
+      }
+    },
+    {
+      "company": "百济神州",
+      "code": "06160",
+      "market": "港股",
+      "currency": "HKD",
+      "metrics": {
+        "total_return_pct": -4.28,
+        "cagr_pct": -4.28,
+        "annual_volatility_pct": 3.99,
+        "sharpe_ratio": -1.699,
+        "max_drawdown_pct": 5.15,
+        "calmar_ratio": -0.83,
+        "total_trades": 9,
+        "win_trades": 2,
+        "loss_trades": 7,
+        "win_rate_pct": 22.2,
+        "avg_win_pct": 0.69,
+        "avg_loss_pct": -0.82,
+        "profit_factor": 0.84,
+        "avg_hold_days": 21.2,
+        "final_capital": 957220.0
+      }
+    },
+    {
+      "company": "百济神州",
+      "code": "ONC",
+      "market": "美股",
+      "currency": "USD",
+      "metrics": {
+        "total_return_pct": -4.78,
+        "cagr_pct": -4.67,
+        "annual_volatility_pct": 7.78,
+        "sharpe_ratio": -0.922,
+        "max_drawdown_pct": 5.99,
+        "calmar_ratio": -0.78,
+        "total_trades": 8,
+        "win_trades": 2,
+        "loss_trades": 6,
+        "win_rate_pct": 25.0,
+        "avg_win_pct": 0.84,
+        "avg_loss_pct": -1.09,
+        "profit_factor": 0.78,
+        "avg_hold_days": 22.2,
+        "final_capital": 952240.88
+      }
+    },
+    {
+      "company": "信达生物",
+      "code": "01801",
+      "market": "港股",
+      "currency": "HKD",
+      "metrics": {
+        "total_return_pct": -5.16,
+        "cagr_pct": -5.16,
+        "annual_volatility_pct": 2.59,
+        "sharpe_ratio": -2.958,
+        "max_drawdown_pct": 5.42,
+        "calmar_ratio": -0.95,
+        "total_trades": 7,
+        "win_trades": 0,
+        "loss_trades": 7,
+        "win_rate_pct": 0.0,
+        "avg_win_pct": 0,
+        "avg_loss_pct": -0.75,
+        "profit_factor": 0.0,
+        "avg_hold_days": 14.7,
+        "final_capital": 948400.0
+      }
+    },
+    {
+      "company": "君实生物",
+      "code": "688180",
+      "market": "A股",
+      "currency": "CNY",
+      "metrics": {
+        "total_return_pct": -2.34,
+        "cagr_pct": -2.36,
+        "annual_volatility_pct": 5.2,
+        "sharpe_ratio": -0.935,
+        "max_drawdown_pct": 4.87,
+        "calmar_ratio": -0.49,
+        "total_trades": 8,
+        "win_trades": 3,
+        "loss_trades": 5,
+        "win_rate_pct": 37.5,
+        "avg_win_pct": 1.03,
+        "avg_loss_pct": -1.08,
+        "profit_factor": 0.96,
+        "avg_hold_days": 25.8,
+        "final_capital": 976551.36
+      }
+    },
+    {
+      "company": "君实生物",
+      "code": "01877",
+      "market": "港股",
+      "currency": "HKD",
+      "metrics": {
+        "total_return_pct": -1.21,
+        "cagr_pct": -1.21,
+        "annual_volatility_pct": 3.42,
+        "sharpe_ratio": -1.084,
+        "max_drawdown_pct": 3.08,
+        "calmar_ratio": -0.39,
+        "total_trades": 7,
+        "win_trades": 3,
+        "loss_trades": 4,
+        "win_rate_pct": 42.9,
+        "avg_win_pct": 0.89,
+        "avg_loss_pct": -0.96,
+        "profit_factor": 0.92,
+        "avg_hold_days": 31.7,
+        "final_capital": 987927.64
+      }
+    }
+  ],
+  "generated": "2026-07-11"
+}

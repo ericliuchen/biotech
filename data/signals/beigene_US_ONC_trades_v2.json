@@ -1,0 +1,90 @@
+[
+  {
+    "entry_date": "2025-08-15",
+    "entry_price": 321.36,
+    "position_type": "long",
+    "exit_date": "2025-08-20",
+    "exit_price": 309.33,
+    "pnl_pct": -3.74,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 330.63
+  },
+  {
+    "entry_date": "2025-09-02",
+    "entry_price": 332.04,
+    "position_type": "long",
+    "exit_date": "2025-09-26",
+    "exit_price": 326.06,
+    "pnl_pct": -1.8,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 3,
+    "highest_reached": 351.27
+  },
+  {
+    "entry_date": "2025-10-10",
+    "entry_price": 320.1,
+    "position_type": "short",
+    "exit_date": "2025-11-05",
+    "exit_price": 321.39,
+    "pnl_pct": -0.4,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 306.0
+  },
+  {
+    "entry_date": "2025-11-12",
+    "entry_price": 377.47,
+    "position_type": "long",
+    "exit_date": "2025-11-19",
+    "exit_price": 353.79,
+    "pnl_pct": -6.27,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 385.22
+  },
+  {
+    "entry_date": "2026-01-07",
+    "entry_price": 333.87,
+    "position_type": "long",
+    "exit_date": "2026-02-26",
+    "exit_price": 322.37,
+    "pnl_pct": -3.44,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 4,
+    "highest_reached": 372.73
+  },
+  {
+    "entry_date": "2026-02-26",
+    "entry_price": 322.37,
+    "position_type": "short",
+    "exit_date": "2026-03-31",
+    "exit_price": 296.97,
+    "pnl_pct": 7.88,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 271.47
+  },
+  {
+    "entry_date": "2026-04-15",
+    "entry_price": 319.94,
+    "position_type": "long",
+    "exit_date": "2026-04-23",
+    "exit_price": 299.81,
+    "pnl_pct": -6.29,
+    "reason": "止损 (2ATR)",
+    "add_count": 0,
+    "highest_reached": 328.39
+  },
+  {
+    "entry_date": "2026-05-29",
+    "entry_price": 287.92,
+    "position_type": "short",
+    "exit_date": "2026-06-23",
+    "exit_price": 276.13,
+    "pnl_pct": 4.09,
+    "reason": "趋势反转 (10日通道)",
+    "add_count": 0,
+    "highest_reached": 253.95
+  }
+]

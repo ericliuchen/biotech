@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海龟策略分析 - 创新药企回测平台</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; color: #1d1d1f; min-height: 100vh; display: flex; flex-direction: column; }
+.header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: white; padding: 48px 24px 40px; text-align: center; }
+.header h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; }
+.header p { font-size: 14px; opacity: 0.8; max-width: 600px; margin: 0 auto; line-height: 1.6; }
+.header .badge { display: inline-block; background: rgba(255,255,255,0.15); padding: 3px 12px; border-radius: 12px; font-size: 11px; margin-top: 12px; }
+.container { max-width: 960px; margin: 0 auto; padding: 32px 20px; flex: 1; }
+.section-title { font-size: 18px; font-weight: 500; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-bottom: 32px; }
+.card { background: white; border-radius: 12px; border: 0.5px solid rgba(0,0,0,0.1); padding: 20px; transition: all 0.15s; cursor: pointer; text-decoration: none; display: block; color: inherit; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+.card-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 18px; margin-bottom: 12px; }
+.card h3 { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
+.card p { font-size: 12px; color: #888; line-height: 1.5; }
+.card .tag { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 3px; background: #f0f0f0; color: #666; margin-top: 8px; }
+.stats-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; margin-bottom: 32px; }
+.stat-card { background: white; border-radius: 10px; border: 0.5px solid rgba(0,0,0,0.08); padding: 14px 16px; text-align: center; }
+.stat-card .num { font-size: 22px; font-weight: 600; margin-bottom: 2px; }
+.stat-card .lbl { font-size: 11px; color: #888; }
+.footer { text-align: center; padding: 24px; font-size: 12px; color: #888; border-top: 0.5px solid rgba(0,0,0,0.06); }
+.blue { background: #E6F1FB; color: #185FA5; }
+.green { background: #EAF3DE; color: #3B6D11; }
+.coral { background: #FAECE7; color: #993C1D; }
+.purple { background: #EEEDFE; color: #534AB7; }
+.amber { background: #FAEEDA; color: #854F0B; }
+.pink { background: #FBEAF0; color: #993556; }
+.teal { background: #E1F5EE; color: #0F6E56; }
+.gray { background: #F1EFE8; color: #5F5E5A; }
+@media (max-width: 640px) { .header h1 { font-size: 22px; } .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>海龟策略 · 创新药企回测分析</h1>
+    <p>基于恒瑞医药、百济神州、信达生物、君实生物四家创新药企的股价数据，完整实现海龟交易策略的通道计算、ATR风控、交易信号生成与回测。</p>
+    <span class="badge">Turtle Trading System · 2025-07 ~ 2026-07</span>
+</div>
+
+<div class="container">
+
+    <div class="stats-row">
+        <div class="stat-card"><div class="num">8</div><div class="lbl">分析标的</div></div>
+        <div class="stat-card"><div class="num">~250</div><div class="lbl">每个标的交易日数</div></div>
+        <div class="stat-card"><div class="num">4</div><div class="lbl">市场（A股/港股/美股）</div></div>
+        <div class="stat-card"><div class="num">2</div><div class="lbl">通道参数(20/30日)</div></div>
+    </div>
+
+    <div class="section-title">可视化报告</div>
+    <div class="grid">
+        <a href="donchian_channels.html" class="card">
+            <div class="card-icon blue">📈</div>
+            <h3>唐奇安通道 (20日)</h3>
+            <p>8只标的的20日高低价格通道走势图，包含上轨、中轨、下轨及价格位置百分比。</p>
+            <span class="tag">交互式图表</span>
+        </a>
+        <a href="atr_indicators.html" class="card">
+            <div class="card-icon purple">📊</div>
+            <h3>ATR 波动率指标</h3>
+            <p>平均真实波幅(20)计算，含2ATR止损位、加仓间距、每笔风险等风控参数。</p>
+            <span class="tag">风控参数</span>
+        </a>
+        <a href="turtle_signals_viz.html" class="card">
+            <div class="card-icon green">🎯</div>
+            <h3>交易信号可视化</h3>
+            <p>完整买卖信号标记（B=买入，S=卖出，X=出场），通道触发线及交易记录。</p>
+            <span class="tag">买卖标记</span>
+        </a>
+        <a href="backtest_report.html" class="card">
+            <div class="card-icon coral">📋</div>
+            <h3>回测报告</h3>
+            <p>全面量化指标：收益率、夏普比率、最大回撤、胜率、盈亏比、权益曲线。</p>
+            <span class="tag">量化指标</span>
+        </a>
+    </div>
+
+    <div class="section-title">策略文档</div>
+    <div class="grid">
+        <a href="strategy_review.md" class="card">
+            <div class="card-icon amber">📝</div>
+            <h3>海龟策略分析报告</h3>
+            <p>海龟策略核心思想、关键优势、概念详解（唐奇安通道、ATR、止损体系）。</p>
+            <span class="tag">研究笔记</span>
+        </a>
+        <a href="work_plan.md" class="card">
+            <div class="card-icon teal">📋</div>
+            <h3>工作计划</h3>
+            <p>分析工作规划与执行进度追踪。</p>
+            <span class="tag">项目管理</span>
+        </a>
+        <a href="stock_data_spec.yaml" class="card">
+            <div class="card-icon pink">📐</div>
+            <h3>数据规范</h3>
+            <p>股价数据结构定义、标准化字段说明。</p>
+            <span class="tag">数据格式</span>
+        </a>
+    </div>
+
+    <div class="section-title">技术实现</div>
+    <div class="grid">
+        <a href="https://github.com/ericliuchen/biotech" class="card">
+            <div class="card-icon gray">💻</div>
+            <h3>源代码仓库</h3>
+            <p>Python 回测引擎、数据管道、Chart.js 可视化 — 完整开源。</p>
+            <span class="tag">GitHub</span>
+        </a>
+    </div>
+
+</div>
+
+<div class="footer">
+    数据来源: Tushare / 自选股API · 回测引擎: Python · 可视化: Chart.js · 策略: Turtle Trading
+</div>
+
+</body>
+</html>
