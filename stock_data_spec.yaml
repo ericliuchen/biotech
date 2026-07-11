@@ -1,0 +1,436 @@
+# ===================================================================
+# 多市场医药股票数据采集与分析规范 (Stock Data Specification)
+# ===================================================================
+# 版本: 1.0
+# 创建: 2026-07-11
+# 用途: 定义跨市场(A股/港股/美股)股票数据的采集、标准化、指标计算、
+#       可视化的全流程规范，支持未来扩展更多标的
+# ===================================================================
+
+meta:
+  version: "1.0"
+  created: "2026-07-11"
+  author: "线上学习项目"
+  description: >
+    医药行业多市场上市股票数据采集与分析规范。
+    覆盖恒瑞医药(A+H)、百济神州(A+H+US)、信达生物(H)、君实生物(A+H)
+    共4家公司、8个上市标的。
+
+# ===================================================================
+# 1. 标的清单 (Universe)
+# ===================================================================
+universe:
+
+  - name: 恒瑞医药
+    name_en: Hengrui Medicine
+    short: hengrui
+    sector: 创新药
+    pattern: A+H  # 上市模式
+    listings:
+      - market: A股
+        exchange: SSE          # 上海证券交易所
+        board: 主板
+        code: "600276"
+        ts_code: "600276.SH"
+        list_date: "2000-10-18"
+        currency: CNY
+      - market: 港股
+        exchange: HKEX         # 香港联交所
+        code: "01276"
+        ts_code: "01276.HK"
+        list_date: "2025-05-23"
+        currency: HKD
+
+  - name: 百济神州
+    name_en: BeiGene
+    short: beigene
+    sector: 创新药
+    pattern: US+H+A  # 三地上市
+    listings:
+      - market: 美股
+        exchange: NASDAQ
+        code: BGNE
+        ts_code: "BGNE.O"
+        list_date: "2016-02-03"
+        currency: USD
+      - market: 港股
+        exchange: HKEX
+        code: "06160"
+        ts_code: "06160.HK"
+        list_date: "2018-08-08"
+        currency: HKD
+      - market: A股
+        exchange: SSE
+        board: 科创板
+        code: "688235"
+        ts_code: "688235.SH"
+        list_date: "2021-12-15"
+        currency: CNY
+
+  - name: 信达生物
+    name_en: Innovent Biologics
+    short: innovent
+    sector: 创新药
+    pattern: H-only  # 仅港股
+    listings:
+      - market: 港股
+        exchange: HKEX
+        code: "01801"
+        ts_code: "01801.HK"
+        list_date: "2018-10-31"
+        currency: HKD
+
+  - name: 君实生物
+    name_en: Junshi Biosciences
+    short: junshi
+    sector: 创新药
+    pattern: H+A  # 先H后A
+    listings:
+      - market: 港股
+        exchange: HKEX
+        code: "01877"
+        ts_code: "01877.HK"
+        list_date: "2018-12-24"
+        currency: HKD
+      - market: A股
+        exchange: SSE
+        board: 科创板
+        code: "688180"
+        ts_code: "688180.SH"
+        list_date: "2020-07-15"
+        currency: CNY
+
+# ===================================================================
+# 2. 统一数据 Schema (Standardized Data Schema)
+# ===================================================================
+# 各市场原始数据字段不一致，采集后统一映射到此 schema
+schema:
+  daily_ohlcv:
+    trade_date:
+      type: string
+      format: "YYYY-MM-DD"
+      required: true
+      description: "交易日期"
+    open:
+      type: float
+      required: true
+      description: "开盘价"
+    high:
+      type: float
+      required: true
+      description: "最高价"
+    low:
+      type: float
+      required: true
+      description: "最低价"
+    close:
+      type: float
+      required: true
+      description: "收盘价"
+    volume:
+      type: float
+      required: true
+      description: "成交量（股数）"
+    amount:
+      type: float
+      required: false
+      description: "成交额（当地货币）"
+    pct_chg:
+      type: float
+      required: false
+      description: "涨跌幅(%)"
+    change:
+      type: float
+      required: false
+      description: "涨跌额"
+    turnover:
+      type: float
+      required: false
+      description: "换手率(%)，仅A股"
+    currency:
+      type: string
+      required: false
+      description: "计价货币 CNY/HKD/USD"
+
+# ===================================================================
+# 3. 数据源配置 (Data Source Configuration)
+# ===================================================================
+data_sources:
+
+  # ── A股 ──
+  A股:
+    primary: tushare
+    api: pro.daily
+    ts_code_field: ts_code
+    fields: [trade_date, open, high, low, close, vol, amount, pct_chg, change, turnover]
+    field_mapping:
+      vol: volume            # tushare A股用 vol → 统一为 volume
+    adjust: none             # none/qfq/hfq
+    notes: "Tushare A股日线，需积分200+"
+
+  # ── 港股 ──
+  港股:
+    primary: tushare
+    api: pro.hk_daily
+    ts_code_field: ts_code
+    fields: [trade_date, open, high, low, close, volume, amount]
+    field_mapping: {}        # 港股字段名已与schema一致
+    adjust: none
+    notes: "Tushare 港股日线"
+
+  # ── 美股 ──
+  美股:
+    primary: tushare
+    api: pro.us_daily
+    ts_code_field: ts_code
+    fields: [trade_date, open, high, low, close, vol, amount, pct_chg, change]
+    field_mapping:
+      vol: volume            # tushare 美股用 vol → 统一为 volume
+    adjust: none
+    notes: "Tushare 美股日线，需积分5000+"
+
+  # ── 备用: westock-data Skill ──
+  # 当 Tushare 积分不足或需要补充数据时使用
+  fallback: westock-data
+  fallback_notes: "内置金融数据查询Skill，支持A股/港股/美股行情数据"
+
+# ===================================================================
+# 4. 文件命名规则 (File Naming Convention)
+# ===================================================================
+naming:
+  # 原始数据 (各市场原始格式)
+  raw_json:     "{short}_{market_code}_{code}.json"
+  raw_csv:      "{short}_{market_code}_{code}.csv"
+  # 标准化数据 (统一schema后)
+  std_json:     "{short}_{market_code}_{code}_std.json"
+  # 技术指标
+  indicators:   "{short}_{market_code}_{code}_indicators.json"
+  # 可视化
+  html:         "{short}_{market_code}_{code}_indicators.html"
+  # 多市场合并 (同一公司多市场合并对比)
+  combined:     "{short}_multi_market_compare.html"
+  # RS相对强度
+  rs_data:      "{short}_{market_code}_{code}_rs.json"
+
+  # market_code 映射
+  market_code_map:
+    A股: A
+    港股: HK
+    美股: US
+
+  # 示例:
+  #   hengrui_A_600276.json        (恒瑞A股原始)
+  #   hengrui_HK_01276.json        (恒瑞港股原始)
+  #   beigene_US_BGNE.json         (百济美股原始)
+  #   beigene_A_688235_std.json    (百济A股标准化)
+  #   hengrui_multi_market_compare.html (恒瑞A+H对比)
+
+# ===================================================================
+# 5. 目录结构 (Directory Structure)
+# ===================================================================
+directories:
+  root: "D:/AI/线上学习"
+  data:
+    raw:          "data/raw"            # 原始采集数据
+    standardized: "data/standardized"   # 标准化后数据
+    indicators:   "data/indicators"     # 技术指标数据
+    benchmark:    "data/benchmark"      # 基准指数数据
+  output:
+    html:         "output/html"         # 可视化HTML页面
+    reports:      "output/reports"      # 分析报告
+  scripts:
+    collection:   "scripts/collection"  # 数据采集脚本
+    processing:   "scripts/processing"  # 数据处理/指标计算脚本
+    visualize:    "scripts/visualize"   # 可视化生成脚本
+
+# ===================================================================
+# 6. 技术指标配置 (Technical Indicators)
+# ===================================================================
+indicators:
+  RSI:
+    enabled: true
+    period: 14
+    description: "相对强弱指标"
+
+  MACD:
+    enabled: true
+    fast: 12
+    slow: 26
+    signal: 9
+    description: "异同移动平均线"
+
+  BollingerBands:
+    enabled: true
+    period: 20
+    std: 2
+    description: "布林带"
+
+  ATR:
+    enabled: true
+    period: 14
+    description: "平均真实波幅"
+
+  RS:
+    enabled: true
+    benchmark: "000933.SH"
+    benchmark_name: "中证医药指数"
+    ma_period: 20
+    description: "相对强度 = 个股收盘价 / 基准指数收盘价"
+    notes: "基准指数需同步采集; 港股/美股标的可用对应市场医药指数"
+
+  MA:
+    enabled: true
+    periods: [5, 10, 20, 60, 120, 250]
+    description: "均线系统"
+
+# ===================================================================
+# 7. 可视化配置 (Visualization)
+# ===================================================================
+visualization:
+  engine: ECharts
+  cdn: "https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"
+  color_scheme:
+    up: "#ef232a"       # 涨→红 (中国市场惯例)
+    down: "#14b143"     # 跌→绿
+    primary: "#1a73e8"
+    secondary: "#e67e22"
+    accent: "#8e44ad"
+  charts:
+    - id: kline
+      title: "K线 & 成交量"
+      height: 460
+    - id: bollinger
+      title: "布林带"
+      height: 180
+    - id: macd
+      title: "MACD"
+      height: 170
+    - id: rsi
+      title: "RSI"
+      height: 150
+    - id: atr
+      title: "ATR"
+      height: 140
+    - id: rs
+      title: "相对强度 RS"
+      height: 150
+  datazoom:
+    default_start: 70
+    default_end: 100
+
+# ===================================================================
+# 8. 采集参数 (Collection Parameters)
+# ===================================================================
+collection:
+  start_date: "2025-07-01"
+  end_date: "auto"         # auto = 自动取当前日期
+  frequency: "daily"
+  adjust: "none"           # none/qfq/hfq (前复权/后复权)
+  retry: 3                 # API调用失败重试次数
+  delay: 0.5               # API调用间隔(秒)，避免频率限制
+
+# ===================================================================
+# 9. 质量校验规则 (Quality Checks)
+# ===================================================================
+quality_checks:
+  - id: date_format
+    rule: "trade_date 符合 YYYY-MM-DD 格式"
+    severity: error
+  - id: price_positive
+    rule: "open/high/low/close 均为正数"
+    severity: error
+  - id: price_consistency
+    rule: "high >= max(open, close) 且 low <= min(open, close)"
+    severity: error
+  - id: volume_nonneg
+    rule: "volume >= 0"
+    severity: error
+  - id: no_duplicates
+    rule: "同一标的无重复 trade_date 记录"
+    severity: error
+  - id: date_continuity
+    rule: "标记缺失交易日（节假日除外），缺失率 < 5%"
+    severity: warning
+  - id: field_completeness
+    rule: "必填字段(null)比例 = 0%，可选字段缺失时填null"
+    severity: warning
+
+# ===================================================================
+# 10. 工作流程 (Workflow)
+# ===================================================================
+workflow:
+  step_1_collect:
+    name: "数据采集"
+    description: "按标的清单逐市场调用API采集日线数据"
+    input: [universe, data_sources, collection]
+    output: "data/raw/{short}_{market_code}_{code}.json"
+    script: "scripts/collection/collect_data.py"
+
+  step_2_standardize:
+    name: "数据标准化"
+    description: "字段映射、类型转换、排序、去重，统一为 schema 定义格式"
+    input: [raw_data, schema, field_mapping]
+    output: "data/standardized/{short}_{market_code}_{code}_std.json"
+    script: "scripts/processing/standardize.py"
+
+  step_3_quality:
+    name: "质量校验"
+    description: "按 quality_checks 规则逐标的校验，生成校验报告"
+    input: [standardized_data, quality_checks]
+    output: "data/quality_report.json"
+    script: "scripts/processing/quality_check.py"
+
+  step_4_benchmark:
+    name: "基准指数采集"
+    description: "采集中证医药指数(000933)等基准数据用于RS计算"
+    input: [indicators.RS.benchmark]
+    output: "data/benchmark/benchmark.json"
+    script: "scripts/collection/collect_benchmark.py"
+
+  step_5_indicators:
+    name: "技术指标计算"
+    description: "计算 RSI/MACD/布林带/ATR/RS/MA 等技术指标"
+    input: [standardized_data, indicators, benchmark]
+    output: "data/indicators/{short}_{market_code}_{code}_indicators.json"
+    script: "scripts/processing/calc_indicators.py"
+
+  step_6_visualize:
+    name: "可视化生成"
+    description: "生成 ECharts HTML 页面，含K线/布林带/MACD/RSI/ATR/RS图表"
+    input: [indicators_data, visualization]
+    output: "output/html/{short}_{market_code}_{code}_indicators.html"
+    script: "scripts/visualize/gen_html.py"
+
+  step_7_compare:
+    name: "多市场对比"
+    description: "对A+H或A+H+US标的，生成跨市场对比分析页面"
+    input: [indicators_data, universe]
+    output: "output/html/{short}_multi_market_compare.html"
+    script: "scripts/visualize/gen_compare.py"
+
+  step_8_report:
+    name: "汇总报告"
+    description: "生成数据采集与指标分析的汇总报告"
+    input: [all_outputs, quality_report]
+    output: "output/reports/summary_report.md"
+    script: "scripts/visualize/gen_report.py"
+
+# ===================================================================
+# 11. 扩展指南 (Extension Guide)
+# ===================================================================
+extension:
+  add_stock: |
+    1. 在 universe 中新增条目，填写 name/short/sector/pattern/listings
+    2. 确保 ts_code 在对应市场数据源中可用
+    3. 运行 step_1 ~ step_6 即可自动采集并生成全部输出
+  add_market: |
+    1. 在 data_sources 中新增市场配置
+    2. 在 naming.market_code_map 中新增映射
+    3. 在 schema 中确认字段覆盖（不一致则补 field_mapping）
+  add_indicator: |
+    1. 在 indicators 中新增配置项
+    2. 在 calc_indicators.py 中实现计算逻辑
+    3. 在 visualization.charts 中新增图表配置
+  add_benchmark: |
+    1. 在 indicators.RS 中修改 benchmark 字段
+    2. 在 step_4_benchmark 中采集对应指数数据

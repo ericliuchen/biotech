@@ -1,0 +1,112 @@
+[
+  {
+    "trade_id": 1,
+    "entry_date": "2025-08-19",
+    "entry_price": 101.9,
+    "exit_date": "2025-09-01",
+    "exit_price": 98.65,
+    "holding_days": 9,
+    "pnl": -3.25,
+    "pnl_pct": -3.19,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 2,
+    "entry_date": "2025-09-03",
+    "entry_price": 107.0,
+    "exit_date": "2025-09-15",
+    "exit_price": 98.5,
+    "holding_days": 8,
+    "pnl": -8.5,
+    "pnl_pct": -7.94,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 3,
+    "entry_date": "2025-10-03",
+    "entry_price": 101.8,
+    "exit_date": "2025-10-15",
+    "exit_price": 85.05,
+    "holding_days": 7,
+    "pnl": -16.75,
+    "pnl_pct": -16.45,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 4,
+    "entry_date": "2025-11-06",
+    "entry_price": 87.2,
+    "exit_date": "2025-12-09",
+    "exit_price": 85.6,
+    "holding_days": 23,
+    "pnl": -1.6,
+    "pnl_pct": -1.83,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 5,
+    "entry_date": "2026-01-08",
+    "entry_price": 89.8,
+    "exit_date": "2026-01-23",
+    "exit_price": 82.0,
+    "holding_days": 11,
+    "pnl": -7.8,
+    "pnl_pct": -8.69,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 6,
+    "entry_date": "2026-02-11",
+    "entry_price": 90.9,
+    "exit_date": "2026-03-03",
+    "exit_price": 82.5,
+    "holding_days": 11,
+    "pnl": -8.4,
+    "pnl_pct": -9.24,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 7,
+    "entry_date": "2026-03-17",
+    "entry_price": 85.0,
+    "exit_date": "2026-03-25",
+    "exit_price": 83.6,
+    "holding_days": 6,
+    "pnl": -1.4,
+    "pnl_pct": -1.65,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 8,
+    "entry_date": "2026-03-31",
+    "entry_price": 86.7,
+    "exit_date": "2026-04-24",
+    "exit_price": 83.0,
+    "holding_days": 15,
+    "pnl": -3.7,
+    "pnl_pct": -4.27,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 9,
+    "entry_date": "2026-05-06",
+    "entry_price": 92.0,
+    "exit_date": "2026-05-18",
+    "exit_price": 82.0,
+    "holding_days": 8,
+    "pnl": -10.0,
+    "pnl_pct": -10.87,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 10,
+    "entry_date": "2026-06-23",
+    "entry_price": 74.65,
+    "exit_date": "2026-07-10",
+    "exit_price": 89.7,
+    "holding_days": 12,
+    "pnl": 15.05,
+    "pnl_pct": 20.16,
+    "result": "未平仓"
+  }
+]

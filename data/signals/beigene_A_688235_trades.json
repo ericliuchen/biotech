@@ -1,0 +1,101 @@
+[
+  {
+    "trade_id": 1,
+    "entry_date": "2025-08-21",
+    "entry_price": 241.5,
+    "exit_date": "2025-09-22",
+    "exit_price": 307.1,
+    "holding_days": 22,
+    "pnl": 65.6,
+    "pnl_pct": 27.16,
+    "result": "盈利"
+  },
+  {
+    "trade_id": 2,
+    "entry_date": "2025-10-30",
+    "entry_price": 286.48,
+    "exit_date": "2025-11-06",
+    "exit_price": 272.7,
+    "holding_days": 5,
+    "pnl": -13.78,
+    "pnl_pct": -4.81,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 3,
+    "entry_date": "2025-11-14",
+    "entry_price": 296.02,
+    "exit_date": "2025-11-25",
+    "exit_price": 278.0,
+    "holding_days": 7,
+    "pnl": -18.02,
+    "pnl_pct": -6.09,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 4,
+    "entry_date": "2025-12-26",
+    "entry_price": 271.93,
+    "exit_date": "2026-01-05",
+    "exit_price": 269.0,
+    "holding_days": 4,
+    "pnl": -2.93,
+    "pnl_pct": -1.08,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 5,
+    "entry_date": "2026-01-06",
+    "entry_price": 301.0,
+    "exit_date": "2026-01-22",
+    "exit_price": 295.0,
+    "holding_days": 12,
+    "pnl": -6.0,
+    "pnl_pct": -1.99,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 6,
+    "entry_date": "2026-02-13",
+    "entry_price": 282.16,
+    "exit_date": "2026-02-27",
+    "exit_price": 258.33,
+    "holding_days": 4,
+    "pnl": -23.83,
+    "pnl_pct": -8.45,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 7,
+    "entry_date": "2026-04-02",
+    "entry_price": 249.8,
+    "exit_date": "2026-04-24",
+    "exit_price": 233.01,
+    "holding_days": 15,
+    "pnl": -16.79,
+    "pnl_pct": -6.72,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 8,
+    "entry_date": "2026-05-11",
+    "entry_price": 247.5,
+    "exit_date": "2026-05-21",
+    "exit_price": 247.0,
+    "holding_days": 8,
+    "pnl": -0.5,
+    "pnl_pct": -0.2,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 9,
+    "entry_date": "2026-06-24",
+    "entry_price": 230.0,
+    "exit_date": "2026-07-10",
+    "exit_price": 267.84,
+    "holding_days": 12,
+    "pnl": 37.84,
+    "pnl_pct": 16.45,
+    "result": "未平仓"
+  }
+]

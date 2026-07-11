@@ -1,0 +1,2270 @@
+[
+  {
+    "trade_date": "2025-07-02",
+    "close": 145.0,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10000.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.0
+  },
+  {
+    "trade_date": "2025-07-03",
+    "close": 149.3,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10296.55,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.9655
+  },
+  {
+    "trade_date": "2025-07-04",
+    "close": 148.5,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10241.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.5358
+  },
+  {
+    "trade_date": "2025-07-07",
+    "close": 146.2,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10082.76,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.5488
+  },
+  {
+    "trade_date": "2025-07-08",
+    "close": 147.2,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10151.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.684
+  },
+  {
+    "trade_date": "2025-07-09",
+    "close": 150.4,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10372.41,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.1739
+  },
+  {
+    "trade_date": "2025-07-10",
+    "close": 152.8,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10537.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.5957
+  },
+  {
+    "trade_date": "2025-07-11",
+    "close": 154.1,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10627.59,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.8508
+  },
+  {
+    "trade_date": "2025-07-14",
+    "close": 152.5,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 10517.24,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.0383
+  },
+  {
+    "trade_date": "2025-07-15",
+    "close": 164.4,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 11337.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 7.8033
+  },
+  {
+    "trade_date": "2025-07-16",
+    "close": 165.7,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 11427.59,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.7908
+  },
+  {
+    "trade_date": "2025-07-17",
+    "close": 183.3,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12641.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 10.6216
+  },
+  {
+    "trade_date": "2025-07-18",
+    "close": 182.7,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12600.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.3273
+  },
+  {
+    "trade_date": "2025-07-21",
+    "close": 175.6,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12110.34,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.8862
+  },
+  {
+    "trade_date": "2025-07-22",
+    "close": 176.2,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12151.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.3417
+  },
+  {
+    "trade_date": "2025-07-23",
+    "close": 180.9,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12475.86,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.6674
+  },
+  {
+    "trade_date": "2025-07-24",
+    "close": 179.0,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12344.83,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.0503
+  },
+  {
+    "trade_date": "2025-07-25",
+    "close": 176.2,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12151.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.5642
+  },
+  {
+    "trade_date": "2025-07-28",
+    "close": 181.4,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12510.34,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.9512
+  },
+  {
+    "trade_date": "2025-07-29",
+    "close": 185.9,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12820.69,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.4807
+  },
+  {
+    "trade_date": "2025-07-30",
+    "close": 182.4,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12579.31,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.8827
+  },
+  {
+    "trade_date": "2025-07-31",
+    "close": 181.4,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12510.34,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.5482
+  },
+  {
+    "trade_date": "2025-08-01",
+    "close": 177.0,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12206.9,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.4256
+  },
+  {
+    "trade_date": "2025-08-04",
+    "close": 182.6,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12593.1,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 3.1638
+  },
+  {
+    "trade_date": "2025-08-05",
+    "close": 186.3,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12848.28,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.0263
+  },
+  {
+    "trade_date": "2025-08-06",
+    "close": 182.7,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12600.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.9324
+  },
+  {
+    "trade_date": "2025-08-07",
+    "close": 182.5,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12586.21,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.1095
+  },
+  {
+    "trade_date": "2025-08-08",
+    "close": 171.3,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 11813.79,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -6.137
+  },
+  {
+    "trade_date": "2025-08-11",
+    "close": 174.7,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12048.28,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.9848
+  },
+  {
+    "trade_date": "2025-08-12",
+    "close": 171.8,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 11848.28,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.66
+  },
+  {
+    "trade_date": "2025-08-13",
+    "close": 179.8,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12400.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 4.6566
+  },
+  {
+    "trade_date": "2025-08-14",
+    "close": 185.0,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 12758.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.8921
+  },
+  {
+    "trade_date": "2025-08-15",
+    "close": 191.5,
+    "position": "空仓",
+    "strategy_equity": 10000.0,
+    "bh_equity": 13206.9,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 3.5135
+  },
+  {
+    "trade_date": "2025-08-18",
+    "close": 193.7,
+    "position": "持仓",
+    "strategy_equity": 10114.88,
+    "bh_equity": 13358.62,
+    "strategy_daily_ret": 1.1488,
+    "bh_daily_ret": 1.1488
+  },
+  {
+    "trade_date": "2025-08-19",
+    "close": 190.1,
+    "position": "持仓",
+    "strategy_equity": 9926.89,
+    "bh_equity": 13110.34,
+    "strategy_daily_ret": -1.8585,
+    "bh_daily_ret": -1.8585
+  },
+  {
+    "trade_date": "2025-08-20",
+    "close": 184.3,
+    "position": "持仓",
+    "strategy_equity": 9624.02,
+    "bh_equity": 12710.34,
+    "strategy_daily_ret": -3.051,
+    "bh_daily_ret": -3.051
+  },
+  {
+    "trade_date": "2025-08-21",
+    "close": 187.5,
+    "position": "持仓",
+    "strategy_equity": 9791.12,
+    "bh_equity": 12931.03,
+    "strategy_daily_ret": 1.7363,
+    "bh_daily_ret": 1.7363
+  },
+  {
+    "trade_date": "2025-08-22",
+    "close": 187.4,
+    "position": "持仓",
+    "strategy_equity": 9785.9,
+    "bh_equity": 12924.14,
+    "strategy_daily_ret": -0.0533,
+    "bh_daily_ret": -0.0533
+  },
+  {
+    "trade_date": "2025-08-25",
+    "close": 187.9,
+    "position": "持仓",
+    "strategy_equity": 9812.01,
+    "bh_equity": 12958.62,
+    "strategy_daily_ret": 0.2668,
+    "bh_daily_ret": 0.2668
+  },
+  {
+    "trade_date": "2025-08-26",
+    "close": 183.7,
+    "position": "持仓",
+    "strategy_equity": 9592.69,
+    "bh_equity": 12668.97,
+    "strategy_daily_ret": -2.2352,
+    "bh_daily_ret": -2.2352
+  },
+  {
+    "trade_date": "2025-08-27",
+    "close": 178.7,
+    "position": "持仓",
+    "strategy_equity": 9331.59,
+    "bh_equity": 12324.14,
+    "strategy_daily_ret": -2.7218,
+    "bh_daily_ret": -2.7218
+  },
+  {
+    "trade_date": "2025-08-28",
+    "close": 177.2,
+    "position": "持仓",
+    "strategy_equity": 9253.26,
+    "bh_equity": 12220.69,
+    "strategy_daily_ret": -0.8394,
+    "bh_daily_ret": -0.8394
+  },
+  {
+    "trade_date": "2025-08-29",
+    "close": 184.2,
+    "position": "空仓",
+    "strategy_equity": 9253.26,
+    "bh_equity": 12703.45,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 3.9503
+  },
+  {
+    "trade_date": "2025-09-01",
+    "close": 194.5,
+    "position": "空仓",
+    "strategy_equity": 9253.26,
+    "bh_equity": 13413.79,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 5.5917
+  },
+  {
+    "trade_date": "2025-09-02",
+    "close": 202.8,
+    "position": "持仓",
+    "strategy_equity": 9648.13,
+    "bh_equity": 13986.21,
+    "strategy_daily_ret": 4.2674,
+    "bh_daily_ret": 4.2674
+  },
+  {
+    "trade_date": "2025-09-03",
+    "close": 202.8,
+    "position": "持仓",
+    "strategy_equity": 9648.13,
+    "bh_equity": 13986.21,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.0
+  },
+  {
+    "trade_date": "2025-09-04",
+    "close": 196.6,
+    "position": "持仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13558.62,
+    "strategy_daily_ret": -3.0572,
+    "bh_daily_ret": -3.0572
+  },
+  {
+    "trade_date": "2025-09-05",
+    "close": 202.0,
+    "position": "持仓",
+    "strategy_equity": 9610.07,
+    "bh_equity": 13931.03,
+    "strategy_daily_ret": 2.7467,
+    "bh_daily_ret": 2.7467
+  },
+  {
+    "trade_date": "2025-09-08",
+    "close": 205.8,
+    "position": "持仓",
+    "strategy_equity": 9790.86,
+    "bh_equity": 14193.1,
+    "strategy_daily_ret": 1.8812,
+    "bh_daily_ret": 1.8812
+  },
+  {
+    "trade_date": "2025-09-09",
+    "close": 210.0,
+    "position": "持仓",
+    "strategy_equity": 9990.67,
+    "bh_equity": 14482.76,
+    "strategy_daily_ret": 2.0408,
+    "bh_daily_ret": 2.0408
+  },
+  {
+    "trade_date": "2025-09-10",
+    "close": 208.2,
+    "position": "持仓",
+    "strategy_equity": 9905.04,
+    "bh_equity": 14358.62,
+    "strategy_daily_ret": -0.8571,
+    "bh_daily_ret": -0.8571
+  },
+  {
+    "trade_date": "2025-09-11",
+    "close": 193.8,
+    "position": "持仓",
+    "strategy_equity": 9219.96,
+    "bh_equity": 13365.52,
+    "strategy_daily_ret": -6.9164,
+    "bh_daily_ret": -6.9164
+  },
+  {
+    "trade_date": "2025-09-12",
+    "close": 198.9,
+    "position": "持仓",
+    "strategy_equity": 9462.59,
+    "bh_equity": 13717.24,
+    "strategy_daily_ret": 2.6316,
+    "bh_daily_ret": 2.6316
+  },
+  {
+    "trade_date": "2025-09-15",
+    "close": 200.0,
+    "position": "持仓",
+    "strategy_equity": 9514.92,
+    "bh_equity": 13793.1,
+    "strategy_daily_ret": 0.553,
+    "bh_daily_ret": 0.553
+  },
+  {
+    "trade_date": "2025-09-16",
+    "close": 196.6,
+    "position": "持仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13558.62,
+    "strategy_daily_ret": -1.7,
+    "bh_daily_ret": -1.7
+  },
+  {
+    "trade_date": "2025-09-17",
+    "close": 198.6,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13696.55,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.0173
+  },
+  {
+    "trade_date": "2025-09-18",
+    "close": 202.0,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13931.03,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.712
+  },
+  {
+    "trade_date": "2025-09-19",
+    "close": 200.8,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13848.28,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.5941
+  },
+  {
+    "trade_date": "2025-09-22",
+    "close": 202.0,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13931.03,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.5976
+  },
+  {
+    "trade_date": "2025-09-23",
+    "close": 196.3,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13537.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.8218
+  },
+  {
+    "trade_date": "2025-09-24",
+    "close": 196.7,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13565.52,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.2038
+  },
+  {
+    "trade_date": "2025-09-25",
+    "close": 199.9,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13786.21,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.6268
+  },
+  {
+    "trade_date": "2025-09-26",
+    "close": 196.2,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13531.03,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.8509
+  },
+  {
+    "trade_date": "2025-09-29",
+    "close": 196.0,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 13517.24,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.1019
+  },
+  {
+    "trade_date": "2025-09-30",
+    "close": 205.2,
+    "position": "空仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 14151.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 4.6939
+  },
+  {
+    "trade_date": "2025-10-02",
+    "close": 210.4,
+    "position": "持仓",
+    "strategy_equity": 9590.19,
+    "bh_equity": 14510.34,
+    "strategy_daily_ret": 2.5341,
+    "bh_daily_ret": 2.5341
+  },
+  {
+    "trade_date": "2025-10-03",
+    "close": 205.4,
+    "position": "持仓",
+    "strategy_equity": 9362.29,
+    "bh_equity": 14165.52,
+    "strategy_daily_ret": -2.3764,
+    "bh_daily_ret": -2.3764
+  },
+  {
+    "trade_date": "2025-10-06",
+    "close": 205.2,
+    "position": "持仓",
+    "strategy_equity": 9353.17,
+    "bh_equity": 14151.72,
+    "strategy_daily_ret": -0.0974,
+    "bh_daily_ret": -0.0974
+  },
+  {
+    "trade_date": "2025-10-08",
+    "close": 209.6,
+    "position": "持仓",
+    "strategy_equity": 9553.73,
+    "bh_equity": 14455.17,
+    "strategy_daily_ret": 2.1442,
+    "bh_daily_ret": 2.1442
+  },
+  {
+    "trade_date": "2025-10-09",
+    "close": 201.0,
+    "position": "持仓",
+    "strategy_equity": 9161.73,
+    "bh_equity": 13862.07,
+    "strategy_daily_ret": -4.1031,
+    "bh_daily_ret": -4.1031
+  },
+  {
+    "trade_date": "2025-10-10",
+    "close": 196.7,
+    "position": "持仓",
+    "strategy_equity": 8965.73,
+    "bh_equity": 13565.52,
+    "strategy_daily_ret": -2.1393,
+    "bh_daily_ret": -2.1393
+  },
+  {
+    "trade_date": "2025-10-13",
+    "close": 192.9,
+    "position": "持仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 13303.45,
+    "strategy_daily_ret": -1.9319,
+    "bh_daily_ret": -1.9319
+  },
+  {
+    "trade_date": "2025-10-14",
+    "close": 185.8,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12813.79,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.6807
+  },
+  {
+    "trade_date": "2025-10-15",
+    "close": 187.6,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12937.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.9688
+  },
+  {
+    "trade_date": "2025-10-16",
+    "close": 190.0,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 13103.45,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.2793
+  },
+  {
+    "trade_date": "2025-10-17",
+    "close": 183.0,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12620.69,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.6842
+  },
+  {
+    "trade_date": "2025-10-20",
+    "close": 188.2,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12979.31,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.8415
+  },
+  {
+    "trade_date": "2025-10-21",
+    "close": 190.0,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 13103.45,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.9564
+  },
+  {
+    "trade_date": "2025-10-22",
+    "close": 185.5,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12793.1,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.3684
+  },
+  {
+    "trade_date": "2025-10-23",
+    "close": 185.0,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12758.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.2695
+  },
+  {
+    "trade_date": "2025-10-24",
+    "close": 184.9,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12751.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.0541
+  },
+  {
+    "trade_date": "2025-10-27",
+    "close": 188.2,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12979.31,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.7847
+  },
+  {
+    "trade_date": "2025-10-28",
+    "close": 187.8,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12951.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.2125
+  },
+  {
+    "trade_date": "2025-10-30",
+    "close": 185.0,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12758.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.4909
+  },
+  {
+    "trade_date": "2025-10-31",
+    "close": 185.8,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12813.79,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.4324
+  },
+  {
+    "trade_date": "2025-11-03",
+    "close": 187.6,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12937.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.9688
+  },
+  {
+    "trade_date": "2025-11-04",
+    "close": 183.8,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12675.86,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.0256
+  },
+  {
+    "trade_date": "2025-11-05",
+    "close": 185.6,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 12800.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.9793
+  },
+  {
+    "trade_date": "2025-11-06",
+    "close": 188.6,
+    "position": "空仓",
+    "strategy_equity": 8792.53,
+    "bh_equity": 13006.9,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.6164
+  },
+  {
+    "trade_date": "2025-11-07",
+    "close": 190.4,
+    "position": "持仓",
+    "strategy_equity": 8876.44,
+    "bh_equity": 13131.03,
+    "strategy_daily_ret": 0.9544,
+    "bh_daily_ret": 0.9544
+  },
+  {
+    "trade_date": "2025-11-10",
+    "close": 195.4,
+    "position": "持仓",
+    "strategy_equity": 9109.54,
+    "bh_equity": 13475.86,
+    "strategy_daily_ret": 2.6261,
+    "bh_daily_ret": 2.6261
+  },
+  {
+    "trade_date": "2025-11-11",
+    "close": 197.4,
+    "position": "持仓",
+    "strategy_equity": 9202.78,
+    "bh_equity": 13613.79,
+    "strategy_daily_ret": 1.0235,
+    "bh_daily_ret": 1.0235
+  },
+  {
+    "trade_date": "2025-11-12",
+    "close": 212.6,
+    "position": "持仓",
+    "strategy_equity": 9911.41,
+    "bh_equity": 14662.07,
+    "strategy_daily_ret": 7.7001,
+    "bh_daily_ret": 7.7001
+  },
+  {
+    "trade_date": "2025-11-13",
+    "close": 229.0,
+    "position": "持仓",
+    "strategy_equity": 10675.97,
+    "bh_equity": 15793.1,
+    "strategy_daily_ret": 7.714,
+    "bh_daily_ret": 7.714
+  },
+  {
+    "trade_date": "2025-11-14",
+    "close": 218.4,
+    "position": "持仓",
+    "strategy_equity": 10181.8,
+    "bh_equity": 15062.07,
+    "strategy_daily_ret": -4.6288,
+    "bh_daily_ret": -4.6288
+  },
+  {
+    "trade_date": "2025-11-17",
+    "close": 215.6,
+    "position": "持仓",
+    "strategy_equity": 10051.27,
+    "bh_equity": 14868.97,
+    "strategy_daily_ret": -1.2821,
+    "bh_daily_ret": -1.2821
+  },
+  {
+    "trade_date": "2025-11-18",
+    "close": 217.8,
+    "position": "持仓",
+    "strategy_equity": 10153.83,
+    "bh_equity": 15020.69,
+    "strategy_daily_ret": 1.0204,
+    "bh_daily_ret": 1.0204
+  },
+  {
+    "trade_date": "2025-11-19",
+    "close": 215.6,
+    "position": "持仓",
+    "strategy_equity": 10051.27,
+    "bh_equity": 14868.97,
+    "strategy_daily_ret": -1.0101,
+    "bh_daily_ret": -1.0101
+  },
+  {
+    "trade_date": "2025-11-20",
+    "close": 216.0,
+    "position": "持仓",
+    "strategy_equity": 10069.91,
+    "bh_equity": 14896.55,
+    "strategy_daily_ret": 0.1855,
+    "bh_daily_ret": 0.1855
+  },
+  {
+    "trade_date": "2025-11-21",
+    "close": 206.0,
+    "position": "持仓",
+    "strategy_equity": 9603.71,
+    "bh_equity": 14206.9,
+    "strategy_daily_ret": -4.6296,
+    "bh_daily_ret": -4.6296
+  },
+  {
+    "trade_date": "2025-11-24",
+    "close": 210.2,
+    "position": "持仓",
+    "strategy_equity": 9799.52,
+    "bh_equity": 14496.55,
+    "strategy_daily_ret": 2.0388,
+    "bh_daily_ret": 2.0388
+  },
+  {
+    "trade_date": "2025-11-25",
+    "close": 204.8,
+    "position": "持仓",
+    "strategy_equity": 9547.77,
+    "bh_equity": 14124.14,
+    "strategy_daily_ret": -2.569,
+    "bh_daily_ret": -2.569
+  },
+  {
+    "trade_date": "2025-11-26",
+    "close": 205.2,
+    "position": "持仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 14151.72,
+    "strategy_daily_ret": 0.1953,
+    "bh_daily_ret": 0.1953
+  },
+  {
+    "trade_date": "2025-11-27",
+    "close": 203.8,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 14055.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.6823
+  },
+  {
+    "trade_date": "2025-11-28",
+    "close": 204.8,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 14124.14,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.4907
+  },
+  {
+    "trade_date": "2025-12-01",
+    "close": 203.6,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 14041.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.5859
+  },
+  {
+    "trade_date": "2025-12-02",
+    "close": 200.2,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13806.9,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.6699
+  },
+  {
+    "trade_date": "2025-12-03",
+    "close": 196.7,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13565.52,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.7483
+  },
+  {
+    "trade_date": "2025-12-04",
+    "close": 200.4,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13820.69,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.881
+  },
+  {
+    "trade_date": "2025-12-05",
+    "close": 198.0,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13655.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.1976
+  },
+  {
+    "trade_date": "2025-12-08",
+    "close": 193.7,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13358.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.1717
+  },
+  {
+    "trade_date": "2025-12-09",
+    "close": 192.0,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13241.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.8776
+  },
+  {
+    "trade_date": "2025-12-10",
+    "close": 189.8,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13089.66,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.1458
+  },
+  {
+    "trade_date": "2025-12-11",
+    "close": 189.7,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13082.76,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.0527
+  },
+  {
+    "trade_date": "2025-12-12",
+    "close": 194.5,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13413.79,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.5303
+  },
+  {
+    "trade_date": "2025-12-15",
+    "close": 178.8,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12331.03,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -8.072
+  },
+  {
+    "trade_date": "2025-12-16",
+    "close": 181.3,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12503.45,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.3982
+  },
+  {
+    "trade_date": "2025-12-17",
+    "close": 182.3,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12572.41,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.5516
+  },
+  {
+    "trade_date": "2025-12-18",
+    "close": 184.3,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12710.34,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.0971
+  },
+  {
+    "trade_date": "2025-12-19",
+    "close": 185.1,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12765.52,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.4341
+  },
+  {
+    "trade_date": "2025-12-22",
+    "close": 186.6,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12868.97,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.8104
+  },
+  {
+    "trade_date": "2025-12-23",
+    "close": 184.0,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12689.66,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.3934
+  },
+  {
+    "trade_date": "2025-12-24",
+    "close": 183.5,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12655.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.2717
+  },
+  {
+    "trade_date": "2025-12-29",
+    "close": 183.8,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12675.86,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.1635
+  },
+  {
+    "trade_date": "2025-12-30",
+    "close": 182.6,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12593.1,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.6529
+  },
+  {
+    "trade_date": "2025-12-31",
+    "close": 179.3,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12365.52,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.8072
+  },
+  {
+    "trade_date": "2026-01-02",
+    "close": 184.5,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 12724.14,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.9002
+  },
+  {
+    "trade_date": "2026-01-05",
+    "close": 194.3,
+    "position": "空仓",
+    "strategy_equity": 9566.42,
+    "bh_equity": 13400.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 5.3117
+  },
+  {
+    "trade_date": "2026-01-06",
+    "close": 192.3,
+    "position": "持仓",
+    "strategy_equity": 9467.95,
+    "bh_equity": 13262.07,
+    "strategy_daily_ret": -1.0293,
+    "bh_daily_ret": -1.0293
+  },
+  {
+    "trade_date": "2026-01-07",
+    "close": 198.8,
+    "position": "持仓",
+    "strategy_equity": 9787.98,
+    "bh_equity": 13710.34,
+    "strategy_daily_ret": 3.3801,
+    "bh_daily_ret": 3.3801
+  },
+  {
+    "trade_date": "2026-01-08",
+    "close": 199.3,
+    "position": "持仓",
+    "strategy_equity": 9812.6,
+    "bh_equity": 13744.83,
+    "strategy_daily_ret": 0.2515,
+    "bh_daily_ret": 0.2515
+  },
+  {
+    "trade_date": "2026-01-09",
+    "close": 197.3,
+    "position": "持仓",
+    "strategy_equity": 9714.12,
+    "bh_equity": 13606.9,
+    "strategy_daily_ret": -1.0035,
+    "bh_daily_ret": -1.0035
+  },
+  {
+    "trade_date": "2026-01-12",
+    "close": 203.4,
+    "position": "持仓",
+    "strategy_equity": 10014.46,
+    "bh_equity": 14027.59,
+    "strategy_daily_ret": 3.0917,
+    "bh_daily_ret": 3.0917
+  },
+  {
+    "trade_date": "2026-01-13",
+    "close": 204.0,
+    "position": "持仓",
+    "strategy_equity": 10044.0,
+    "bh_equity": 14068.97,
+    "strategy_daily_ret": 0.295,
+    "bh_daily_ret": 0.295
+  },
+  {
+    "trade_date": "2026-01-14",
+    "close": 205.0,
+    "position": "持仓",
+    "strategy_equity": 10093.24,
+    "bh_equity": 14137.93,
+    "strategy_daily_ret": 0.4902,
+    "bh_daily_ret": 0.4902
+  },
+  {
+    "trade_date": "2026-01-15",
+    "close": 205.6,
+    "position": "持仓",
+    "strategy_equity": 10122.78,
+    "bh_equity": 14179.31,
+    "strategy_daily_ret": 0.2927,
+    "bh_daily_ret": 0.2927
+  },
+  {
+    "trade_date": "2026-01-16",
+    "close": 202.8,
+    "position": "持仓",
+    "strategy_equity": 9984.92,
+    "bh_equity": 13986.21,
+    "strategy_daily_ret": -1.3619,
+    "bh_daily_ret": -1.3619
+  },
+  {
+    "trade_date": "2026-01-19",
+    "close": 200.4,
+    "position": "持仓",
+    "strategy_equity": 9866.75,
+    "bh_equity": 13820.69,
+    "strategy_daily_ret": -1.1834,
+    "bh_daily_ret": -1.1834
+  },
+  {
+    "trade_date": "2026-01-20",
+    "close": 198.7,
+    "position": "持仓",
+    "strategy_equity": 9783.05,
+    "bh_equity": 13703.45,
+    "strategy_daily_ret": -0.8483,
+    "bh_daily_ret": -0.8483
+  },
+  {
+    "trade_date": "2026-01-21",
+    "close": 200.6,
+    "position": "持仓",
+    "strategy_equity": 9876.6,
+    "bh_equity": 13834.48,
+    "strategy_daily_ret": 0.9562,
+    "bh_daily_ret": 0.9562
+  },
+  {
+    "trade_date": "2026-01-22",
+    "close": 199.8,
+    "position": "持仓",
+    "strategy_equity": 9837.21,
+    "bh_equity": 13779.31,
+    "strategy_daily_ret": -0.3988,
+    "bh_daily_ret": -0.3988
+  },
+  {
+    "trade_date": "2026-01-23",
+    "close": 204.2,
+    "position": "持仓",
+    "strategy_equity": 10053.85,
+    "bh_equity": 14082.76,
+    "strategy_daily_ret": 2.2022,
+    "bh_daily_ret": 2.2022
+  },
+  {
+    "trade_date": "2026-01-26",
+    "close": 202.0,
+    "position": "持仓",
+    "strategy_equity": 9945.53,
+    "bh_equity": 13931.03,
+    "strategy_daily_ret": -1.0774,
+    "bh_daily_ret": -1.0774
+  },
+  {
+    "trade_date": "2026-01-27",
+    "close": 202.2,
+    "position": "持仓",
+    "strategy_equity": 9955.38,
+    "bh_equity": 13944.83,
+    "strategy_daily_ret": 0.099,
+    "bh_daily_ret": 0.099
+  },
+  {
+    "trade_date": "2026-01-28",
+    "close": 210.4,
+    "position": "持仓",
+    "strategy_equity": 10359.11,
+    "bh_equity": 14510.34,
+    "strategy_daily_ret": 4.0554,
+    "bh_daily_ret": 4.0554
+  },
+  {
+    "trade_date": "2026-01-29",
+    "close": 209.6,
+    "position": "持仓",
+    "strategy_equity": 10319.72,
+    "bh_equity": 14455.17,
+    "strategy_daily_ret": -0.3802,
+    "bh_daily_ret": -0.3802
+  },
+  {
+    "trade_date": "2026-01-30",
+    "close": 206.6,
+    "position": "持仓",
+    "strategy_equity": 10172.01,
+    "bh_equity": 14248.28,
+    "strategy_daily_ret": -1.4313,
+    "bh_daily_ret": -1.4313
+  },
+  {
+    "trade_date": "2026-02-02",
+    "close": 198.1,
+    "position": "持仓",
+    "strategy_equity": 9753.51,
+    "bh_equity": 13662.07,
+    "strategy_daily_ret": -4.1142,
+    "bh_daily_ret": -4.1142
+  },
+  {
+    "trade_date": "2026-02-03",
+    "close": 205.8,
+    "position": "持仓",
+    "strategy_equity": 10132.62,
+    "bh_equity": 14193.1,
+    "strategy_daily_ret": 3.8869,
+    "bh_daily_ret": 3.8869
+  },
+  {
+    "trade_date": "2026-02-04",
+    "close": 211.6,
+    "position": "持仓",
+    "strategy_equity": 10418.19,
+    "bh_equity": 14593.1,
+    "strategy_daily_ret": 2.8183,
+    "bh_daily_ret": 2.8183
+  },
+  {
+    "trade_date": "2026-02-05",
+    "close": 209.6,
+    "position": "持仓",
+    "strategy_equity": 10319.72,
+    "bh_equity": 14455.17,
+    "strategy_daily_ret": -0.9452,
+    "bh_daily_ret": -0.9452
+  },
+  {
+    "trade_date": "2026-02-06",
+    "close": 205.2,
+    "position": "持仓",
+    "strategy_equity": 10103.08,
+    "bh_equity": 14151.72,
+    "strategy_daily_ret": -2.0992,
+    "bh_daily_ret": -2.0992
+  },
+  {
+    "trade_date": "2026-02-09",
+    "close": 212.2,
+    "position": "持仓",
+    "strategy_equity": 10447.73,
+    "bh_equity": 14634.48,
+    "strategy_daily_ret": 3.4113,
+    "bh_daily_ret": 3.4113
+  },
+  {
+    "trade_date": "2026-02-10",
+    "close": 212.4,
+    "position": "持仓",
+    "strategy_equity": 10457.58,
+    "bh_equity": 14648.28,
+    "strategy_daily_ret": 0.0943,
+    "bh_daily_ret": 0.0943
+  },
+  {
+    "trade_date": "2026-02-11",
+    "close": 212.2,
+    "position": "持仓",
+    "strategy_equity": 10447.73,
+    "bh_equity": 14634.48,
+    "strategy_daily_ret": -0.0942,
+    "bh_daily_ret": -0.0942
+  },
+  {
+    "trade_date": "2026-02-12",
+    "close": 209.6,
+    "position": "持仓",
+    "strategy_equity": 10319.72,
+    "bh_equity": 14455.17,
+    "strategy_daily_ret": -1.2253,
+    "bh_daily_ret": -1.2253
+  },
+  {
+    "trade_date": "2026-02-13",
+    "close": 208.6,
+    "position": "持仓",
+    "strategy_equity": 10270.48,
+    "bh_equity": 14386.21,
+    "strategy_daily_ret": -0.4771,
+    "bh_daily_ret": -0.4771
+  },
+  {
+    "trade_date": "2026-02-16",
+    "close": 205.8,
+    "position": "持仓",
+    "strategy_equity": 10132.62,
+    "bh_equity": 14193.1,
+    "strategy_daily_ret": -1.3423,
+    "bh_daily_ret": -1.3423
+  },
+  {
+    "trade_date": "2026-02-20",
+    "close": 214.4,
+    "position": "持仓",
+    "strategy_equity": 10556.05,
+    "bh_equity": 14786.21,
+    "strategy_daily_ret": 4.1788,
+    "bh_daily_ret": 4.1788
+  },
+  {
+    "trade_date": "2026-02-23",
+    "close": 216.6,
+    "position": "持仓",
+    "strategy_equity": 10664.37,
+    "bh_equity": 14937.93,
+    "strategy_daily_ret": 1.0261,
+    "bh_daily_ret": 1.0261
+  },
+  {
+    "trade_date": "2026-02-24",
+    "close": 218.0,
+    "position": "持仓",
+    "strategy_equity": 10733.3,
+    "bh_equity": 15034.48,
+    "strategy_daily_ret": 0.6464,
+    "bh_daily_ret": 0.6464
+  },
+  {
+    "trade_date": "2026-02-25",
+    "close": 214.0,
+    "position": "持仓",
+    "strategy_equity": 10536.35,
+    "bh_equity": 14758.62,
+    "strategy_daily_ret": -1.8349,
+    "bh_daily_ret": -1.8349
+  },
+  {
+    "trade_date": "2026-02-26",
+    "close": 194.4,
+    "position": "持仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 13406.9,
+    "strategy_daily_ret": -9.1589,
+    "bh_daily_ret": -9.1589
+  },
+  {
+    "trade_date": "2026-02-27",
+    "close": 192.3,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 13262.07,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.0802
+  },
+  {
+    "trade_date": "2026-03-02",
+    "close": 185.0,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12758.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.7962
+  },
+  {
+    "trade_date": "2026-03-03",
+    "close": 178.4,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12303.45,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.5676
+  },
+  {
+    "trade_date": "2026-03-04",
+    "close": 175.0,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12068.97,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.9058
+  },
+  {
+    "trade_date": "2026-03-05",
+    "close": 177.6,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12248.28,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.4857
+  },
+  {
+    "trade_date": "2026-03-06",
+    "close": 182.3,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12572.41,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.6464
+  },
+  {
+    "trade_date": "2026-03-09",
+    "close": 178.9,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12337.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.8651
+  },
+  {
+    "trade_date": "2026-03-10",
+    "close": 183.5,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12655.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.5713
+  },
+  {
+    "trade_date": "2026-03-11",
+    "close": 178.8,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12331.03,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.5613
+  },
+  {
+    "trade_date": "2026-03-12",
+    "close": 176.2,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12151.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.4541
+  },
+  {
+    "trade_date": "2026-03-13",
+    "close": 170.7,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11772.41,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.1215
+  },
+  {
+    "trade_date": "2026-03-16",
+    "close": 174.8,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12055.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.4019
+  },
+  {
+    "trade_date": "2026-03-17",
+    "close": 173.4,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11958.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.8009
+  },
+  {
+    "trade_date": "2026-03-18",
+    "close": 174.9,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12062.07,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.8651
+  },
+  {
+    "trade_date": "2026-03-19",
+    "close": 169.4,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11682.76,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.1447
+  },
+  {
+    "trade_date": "2026-03-20",
+    "close": 169.0,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11655.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.2361
+  },
+  {
+    "trade_date": "2026-03-23",
+    "close": 161.9,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11165.52,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -4.2012
+  },
+  {
+    "trade_date": "2026-03-24",
+    "close": 166.6,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11489.66,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.903
+  },
+  {
+    "trade_date": "2026-03-25",
+    "close": 167.3,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11537.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.4202
+  },
+  {
+    "trade_date": "2026-03-26",
+    "close": 164.1,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11317.24,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.9127
+  },
+  {
+    "trade_date": "2026-03-27",
+    "close": 174.0,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 12000.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 6.0329
+  },
+  {
+    "trade_date": "2026-03-30",
+    "close": 171.1,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11800.0,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.6667
+  },
+  {
+    "trade_date": "2026-03-31",
+    "close": 171.6,
+    "position": "空仓",
+    "strategy_equity": 9571.34,
+    "bh_equity": 11834.48,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.2922
+  },
+  {
+    "trade_date": "2026-04-01",
+    "close": 185.0,
+    "position": "持仓",
+    "strategy_equity": 10318.75,
+    "bh_equity": 12758.62,
+    "strategy_daily_ret": 7.8089,
+    "bh_daily_ret": 7.8089
+  },
+  {
+    "trade_date": "2026-04-02",
+    "close": 187.5,
+    "position": "持仓",
+    "strategy_equity": 10458.2,
+    "bh_equity": 12931.03,
+    "strategy_daily_ret": 1.3514,
+    "bh_daily_ret": 1.3514
+  },
+  {
+    "trade_date": "2026-04-08",
+    "close": 187.5,
+    "position": "持仓",
+    "strategy_equity": 10458.2,
+    "bh_equity": 12931.03,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.0
+  },
+  {
+    "trade_date": "2026-04-09",
+    "close": 187.9,
+    "position": "持仓",
+    "strategy_equity": 10480.51,
+    "bh_equity": 12958.62,
+    "strategy_daily_ret": 0.2133,
+    "bh_daily_ret": 0.2133
+  },
+  {
+    "trade_date": "2026-04-10",
+    "close": 189.1,
+    "position": "持仓",
+    "strategy_equity": 10547.44,
+    "bh_equity": 13041.38,
+    "strategy_daily_ret": 0.6386,
+    "bh_daily_ret": 0.6386
+  },
+  {
+    "trade_date": "2026-04-13",
+    "close": 187.1,
+    "position": "持仓",
+    "strategy_equity": 10435.89,
+    "bh_equity": 12903.45,
+    "strategy_daily_ret": -1.0576,
+    "bh_daily_ret": -1.0576
+  },
+  {
+    "trade_date": "2026-04-14",
+    "close": 184.9,
+    "position": "持仓",
+    "strategy_equity": 10313.18,
+    "bh_equity": 12751.72,
+    "strategy_daily_ret": -1.1758,
+    "bh_daily_ret": -1.1758
+  },
+  {
+    "trade_date": "2026-04-15",
+    "close": 190.5,
+    "position": "持仓",
+    "strategy_equity": 10625.53,
+    "bh_equity": 13137.93,
+    "strategy_daily_ret": 3.0287,
+    "bh_daily_ret": 3.0287
+  },
+  {
+    "trade_date": "2026-04-16",
+    "close": 196.5,
+    "position": "持仓",
+    "strategy_equity": 10960.19,
+    "bh_equity": 13551.72,
+    "strategy_daily_ret": 3.1496,
+    "bh_daily_ret": 3.1496
+  },
+  {
+    "trade_date": "2026-04-17",
+    "close": 193.2,
+    "position": "持仓",
+    "strategy_equity": 10776.13,
+    "bh_equity": 13324.14,
+    "strategy_daily_ret": -1.6794,
+    "bh_daily_ret": -1.6794
+  },
+  {
+    "trade_date": "2026-04-20",
+    "close": 191.0,
+    "position": "持仓",
+    "strategy_equity": 10653.42,
+    "bh_equity": 13172.41,
+    "strategy_daily_ret": -1.1387,
+    "bh_daily_ret": -1.1387
+  },
+  {
+    "trade_date": "2026-04-21",
+    "close": 189.5,
+    "position": "持仓",
+    "strategy_equity": 10569.75,
+    "bh_equity": 13068.97,
+    "strategy_daily_ret": -0.7853,
+    "bh_daily_ret": -0.7853
+  },
+  {
+    "trade_date": "2026-04-22",
+    "close": 186.8,
+    "position": "持仓",
+    "strategy_equity": 10419.15,
+    "bh_equity": 12882.76,
+    "strategy_daily_ret": -1.4248,
+    "bh_daily_ret": -1.4248
+  },
+  {
+    "trade_date": "2026-04-23",
+    "close": 183.7,
+    "position": "持仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12668.97,
+    "strategy_daily_ret": -1.6595,
+    "bh_daily_ret": -1.6595
+  },
+  {
+    "trade_date": "2026-04-24",
+    "close": 181.2,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12496.55,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.3609
+  },
+  {
+    "trade_date": "2026-04-27",
+    "close": 180.4,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12441.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.4415
+  },
+  {
+    "trade_date": "2026-04-28",
+    "close": 178.9,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12337.93,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.8315
+  },
+  {
+    "trade_date": "2026-04-29",
+    "close": 179.2,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12358.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.1677
+  },
+  {
+    "trade_date": "2026-04-30",
+    "close": 173.6,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 11972.41,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.125
+  },
+  {
+    "trade_date": "2026-05-04",
+    "close": 176.7,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12186.21,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.7857
+  },
+  {
+    "trade_date": "2026-05-05",
+    "close": 176.8,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12193.1,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.0566
+  },
+  {
+    "trade_date": "2026-05-06",
+    "close": 182.0,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 12551.72,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.9412
+  },
+  {
+    "trade_date": "2026-05-07",
+    "close": 188.9,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 13027.59,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 3.7912
+  },
+  {
+    "trade_date": "2026-05-08",
+    "close": 190.6,
+    "position": "空仓",
+    "strategy_equity": 10246.24,
+    "bh_equity": 13144.83,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.8999
+  },
+  {
+    "trade_date": "2026-05-11",
+    "close": 190.5,
+    "position": "持仓",
+    "strategy_equity": 10240.87,
+    "bh_equity": 13137.93,
+    "strategy_daily_ret": -0.0525,
+    "bh_daily_ret": -0.0525
+  },
+  {
+    "trade_date": "2026-05-12",
+    "close": 189.9,
+    "position": "持仓",
+    "strategy_equity": 10208.61,
+    "bh_equity": 13096.55,
+    "strategy_daily_ret": -0.315,
+    "bh_daily_ret": -0.315
+  },
+  {
+    "trade_date": "2026-05-13",
+    "close": 187.9,
+    "position": "持仓",
+    "strategy_equity": 10101.1,
+    "bh_equity": 12958.62,
+    "strategy_daily_ret": -1.0532,
+    "bh_daily_ret": -1.0532
+  },
+  {
+    "trade_date": "2026-05-14",
+    "close": 184.7,
+    "position": "持仓",
+    "strategy_equity": 9929.07,
+    "bh_equity": 12737.93,
+    "strategy_daily_ret": -1.703,
+    "bh_daily_ret": -1.703
+  },
+  {
+    "trade_date": "2026-05-15",
+    "close": 179.3,
+    "position": "持仓",
+    "strategy_equity": 9638.78,
+    "bh_equity": 12365.52,
+    "strategy_daily_ret": -2.9237,
+    "bh_daily_ret": -2.9237
+  },
+  {
+    "trade_date": "2026-05-18",
+    "close": 175.1,
+    "position": "持仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12075.86,
+    "strategy_daily_ret": -2.3424,
+    "bh_daily_ret": -2.3424
+  },
+  {
+    "trade_date": "2026-05-19",
+    "close": 174.8,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12055.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.1713
+  },
+  {
+    "trade_date": "2026-05-20",
+    "close": 181.0,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12482.76,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 3.5469
+  },
+  {
+    "trade_date": "2026-05-21",
+    "close": 183.1,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12627.59,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.1602
+  },
+  {
+    "trade_date": "2026-05-22",
+    "close": 184.5,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12724.14,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.7646
+  },
+  {
+    "trade_date": "2026-05-26",
+    "close": 185.8,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12813.79,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.7046
+  },
+  {
+    "trade_date": "2026-05-27",
+    "close": 180.6,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12455.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.7987
+  },
+  {
+    "trade_date": "2026-05-28",
+    "close": 175.1,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12075.86,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -3.0454
+  },
+  {
+    "trade_date": "2026-05-29",
+    "close": 176.8,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 12193.1,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.9709
+  },
+  {
+    "trade_date": "2026-06-01",
+    "close": 171.5,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11827.59,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.9977
+  },
+  {
+    "trade_date": "2026-06-02",
+    "close": 168.8,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11641.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.5743
+  },
+  {
+    "trade_date": "2026-06-03",
+    "close": 165.2,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11393.1,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.1327
+  },
+  {
+    "trade_date": "2026-06-04",
+    "close": 167.9,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11579.31,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 1.6344
+  },
+  {
+    "trade_date": "2026-06-05",
+    "close": 163.0,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11241.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.9184
+  },
+  {
+    "trade_date": "2026-06-08",
+    "close": 163.1,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11248.28,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.0613
+  },
+  {
+    "trade_date": "2026-06-09",
+    "close": 159.7,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11013.79,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -2.0846
+  },
+  {
+    "trade_date": "2026-06-10",
+    "close": 163.0,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11241.38,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.0664
+  },
+  {
+    "trade_date": "2026-06-11",
+    "close": 155.4,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 10717.24,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -4.6626
+  },
+  {
+    "trade_date": "2026-06-12",
+    "close": 158.9,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 10958.62,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 2.2523
+  },
+  {
+    "trade_date": "2026-06-15",
+    "close": 159.6,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11006.9,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 0.4405
+  },
+  {
+    "trade_date": "2026-06-16",
+    "close": 159.2,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 10979.31,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.2506
+  },
+  {
+    "trade_date": "2026-06-17",
+    "close": 157.4,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 10855.17,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.1307
+  },
+  {
+    "trade_date": "2026-06-18",
+    "close": 163.7,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11289.66,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": 4.0025
+  },
+  {
+    "trade_date": "2026-06-22",
+    "close": 161.2,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11117.24,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -1.5272
+  },
+  {
+    "trade_date": "2026-06-23",
+    "close": 160.9,
+    "position": "空仓",
+    "strategy_equity": 9413.0,
+    "bh_equity": 11096.55,
+    "strategy_daily_ret": 0.0,
+    "bh_daily_ret": -0.1861
+  },
+  {
+    "trade_date": "2026-06-24",
+    "close": 165.2,
+    "position": "持仓",
+    "strategy_equity": 9664.56,
+    "bh_equity": 11393.1,
+    "strategy_daily_ret": 2.6725,
+    "bh_daily_ret": 2.6725
+  },
+  {
+    "trade_date": "2026-06-25",
+    "close": 167.0,
+    "position": "持仓",
+    "strategy_equity": 9769.86,
+    "bh_equity": 11517.24,
+    "strategy_daily_ret": 1.0896,
+    "bh_daily_ret": 1.0896
+  },
+  {
+    "trade_date": "2026-06-26",
+    "close": 165.9,
+    "position": "持仓",
+    "strategy_equity": 9705.51,
+    "bh_equity": 11441.38,
+    "strategy_daily_ret": -0.6587,
+    "bh_daily_ret": -0.6587
+  },
+  {
+    "trade_date": "2026-06-29",
+    "close": 174.5,
+    "position": "持仓",
+    "strategy_equity": 10208.63,
+    "bh_equity": 12034.48,
+    "strategy_daily_ret": 5.1838,
+    "bh_daily_ret": 5.1838
+  },
+  {
+    "trade_date": "2026-06-30",
+    "close": 170.4,
+    "position": "持仓",
+    "strategy_equity": 9968.77,
+    "bh_equity": 11751.72,
+    "strategy_daily_ret": -2.3496,
+    "bh_daily_ret": -2.3496
+  },
+  {
+    "trade_date": "2026-07-02",
+    "close": 174.7,
+    "position": "持仓",
+    "strategy_equity": 10220.33,
+    "bh_equity": 12048.28,
+    "strategy_daily_ret": 2.5235,
+    "bh_daily_ret": 2.5235
+  },
+  {
+    "trade_date": "2026-07-03",
+    "close": 183.1,
+    "position": "持仓",
+    "strategy_equity": 10711.75,
+    "bh_equity": 12627.59,
+    "strategy_daily_ret": 4.8082,
+    "bh_daily_ret": 4.8082
+  },
+  {
+    "trade_date": "2026-07-06",
+    "close": 190.5,
+    "position": "持仓",
+    "strategy_equity": 11144.66,
+    "bh_equity": 13137.93,
+    "strategy_daily_ret": 4.0415,
+    "bh_daily_ret": 4.0415
+  },
+  {
+    "trade_date": "2026-07-07",
+    "close": 184.3,
+    "position": "持仓",
+    "strategy_equity": 10781.95,
+    "bh_equity": 12710.34,
+    "strategy_daily_ret": -3.2546,
+    "bh_daily_ret": -3.2546
+  },
+  {
+    "trade_date": "2026-07-08",
+    "close": 183.6,
+    "position": "持仓",
+    "strategy_equity": 10741.0,
+    "bh_equity": 12662.07,
+    "strategy_daily_ret": -0.3798,
+    "bh_daily_ret": -0.3798
+  },
+  {
+    "trade_date": "2026-07-09",
+    "close": 181.9,
+    "position": "持仓",
+    "strategy_equity": 10641.54,
+    "bh_equity": 12544.83,
+    "strategy_daily_ret": -0.9259,
+    "bh_daily_ret": -0.9259
+  },
+  {
+    "trade_date": "2026-07-10",
+    "close": 183.5,
+    "position": "持仓",
+    "strategy_equity": 10735.15,
+    "bh_equity": 12655.17,
+    "strategy_daily_ret": 0.8796,
+    "bh_daily_ret": 0.8796
+  }
+]

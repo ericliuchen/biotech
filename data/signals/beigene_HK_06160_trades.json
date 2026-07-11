@@ -1,0 +1,90 @@
+[
+  {
+    "trade_id": 1,
+    "entry_date": "2025-08-19",
+    "entry_price": 193.7,
+    "exit_date": "2025-09-01",
+    "exit_price": 186.6,
+    "holding_days": 9,
+    "pnl": -7.1,
+    "pnl_pct": -3.67,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 2,
+    "entry_date": "2025-09-03",
+    "entry_price": 201.2,
+    "exit_date": "2025-09-18",
+    "exit_price": 198.8,
+    "holding_days": 11,
+    "pnl": -2.4,
+    "pnl_pct": -1.19,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 3,
+    "entry_date": "2025-10-03",
+    "entry_price": 208.0,
+    "exit_date": "2025-10-15",
+    "exit_price": 190.0,
+    "holding_days": 7,
+    "pnl": -18.0,
+    "pnl_pct": -8.65,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 4,
+    "entry_date": "2025-11-10",
+    "entry_price": 187.6,
+    "exit_date": "2025-11-28",
+    "exit_price": 204.2,
+    "holding_days": 14,
+    "pnl": 16.6,
+    "pnl_pct": 8.85,
+    "result": "盈利"
+  },
+  {
+    "trade_id": 5,
+    "entry_date": "2026-01-07",
+    "entry_price": 193.5,
+    "exit_date": "2026-03-02",
+    "exit_price": 188.0,
+    "holding_days": 35,
+    "pnl": -5.5,
+    "pnl_pct": -2.84,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 6,
+    "entry_date": "2026-04-02",
+    "entry_price": 185.1,
+    "exit_date": "2026-04-27",
+    "exit_price": 181.2,
+    "holding_days": 14,
+    "pnl": -3.9,
+    "pnl_pct": -2.11,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 7,
+    "entry_date": "2026-05-12",
+    "entry_price": 188.5,
+    "exit_date": "2026-05-20",
+    "exit_price": 178.2,
+    "holding_days": 6,
+    "pnl": -10.3,
+    "pnl_pct": -5.46,
+    "result": "亏损"
+  },
+  {
+    "trade_id": 8,
+    "entry_date": "2026-06-25",
+    "entry_price": 167.0,
+    "exit_date": "2026-07-10",
+    "exit_price": 183.5,
+    "holding_days": 10,
+    "pnl": 16.5,
+    "pnl_pct": 9.88,
+    "result": "未平仓"
+  }
+]
